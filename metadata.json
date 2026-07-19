@@ -1,5 +1,19 @@
 {
-  "title": "HappySeeds",
-  "description": "The future of building is here. HappySeeds uses an agentic layer to bridge the gap between intent and code. High-fidelity UI, zero friction. Grow what you feel today.",
-  "keywords": [ "HappySeeds", "VibeCoding", "AI Agents", "Software Engineering", "SaaS Builder", "UI-First Development" ]
+  "title": "TangierTours — Private Tour Guide in Tangier, Morocco | Idrissi",
+  "description": "Book a private tour in Tangier, Morocco with licensed guide Idrissi. Shore excursions, Jewish heritage tours, Chefchaouen day trips & luxury Morocco experiences. 4.9★ rated.",
+  "keywords": ["Tangier private tour", "Tangier tour guide", "private tours Morocco", "shore excursion Tangier", "Jewish heritage Morocco", "luxury Morocco tours", "Chefchaouen day trip", "Casablanca Jewish tour", "Morocco tour guide"],
+  "openGraph": {
+    "type": "website",
+    "locale": "en_US",
+    "siteName": "TangierTours"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "TangierTours — Private Tour Guide in Tangier, Morocco",
+    "description": "Book a private tour in Tangier, Morocco with licensed guide Idrissi. Shore excursions, Jewish heritage tours, luxury Morocco experiences."
+  },
+  "robots": "index, follow",
+  "alternates": {
+    "canonical": "https://www.tangiertours.ma"
+  }
 }

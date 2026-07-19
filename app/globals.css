@@ -4,39 +4,48 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
+  /* TangierTours Brand Colors */
+  --navy: #0F1F3D;
+  --gold: #C9A84C;
+  --gold-light: #E8C97A;
+  --ivory: #FAF8F5;
+  --charcoal: #1A1A2E;
+  --muted-text: #6B7280;
+  --border-warm: #E8E0D0;
+
+  --background: oklch(0.988 0.005 75);
+  --foreground: oklch(0.12 0.02 265);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
+  --card-foreground: oklch(0.12 0.02 265);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
+  --popover-foreground: oklch(0.12 0.02 265);
+  --primary: oklch(0.18 0.07 255);
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.78 0.09 75);
+  --secondary-foreground: oklch(0.12 0.02 265);
+  --muted: oklch(0.96 0.01 75);
+  --muted-foreground: oklch(0.48 0.02 265);
+  --accent: oklch(0.78 0.09 75);
+  --accent-foreground: oklch(0.12 0.02 265);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: oklch(0.9 0.02 75);
+  --input: oklch(0.9 0.02 75);
+  --ring: oklch(0.78 0.09 75);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
-  --radius: 0.625rem;
+  --radius: 0.25rem;
   --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
+  --sidebar-foreground: oklch(0.12 0.02 265);
+  --sidebar-primary: oklch(0.18 0.07 255);
   --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar-accent: oklch(0.96 0.01 75);
+  --sidebar-accent-foreground: oklch(0.12 0.02 265);
+  --sidebar-border: oklch(0.9 0.02 75);
+  --sidebar-ring: oklch(0.78 0.09 75);
 }
 
 .dark {
@@ -75,7 +84,8 @@
 }
 
 @theme inline {
-  --font-sans: 'Geist', 'Geist Fallback';
+  --font-sans: var(--font-source-sans), 'Helvetica Neue', Arial, sans-serif;
+  --font-display: var(--font-playfair), Georgia, serif;
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -121,7 +131,54 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-sans);
   }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+  }
+}
+
+/* TangierTours utility classes */
+.font-display {
+  font-family: var(--font-display);
+}
+.text-gold {
+  color: var(--gold);
+}
+.bg-navy {
+  background-color: var(--navy);
+}
+.bg-ivory {
+  background-color: var(--ivory);
+}
+.border-gold {
+  border-color: var(--gold);
+}
+.text-navy {
+  color: var(--navy);
+}
+
+/* Gold divider ornament */
+.gold-divider::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: var(--gold);
+  margin: 1rem auto 0;
+}
+.gold-divider-left::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: var(--gold);
+  margin: 1rem 0 0;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
 }
 
 nextjs-portal {
