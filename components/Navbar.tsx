@@ -17,6 +17,7 @@ const navItems = [
       { label: "Camel Ride Experience", href: "/tours/camel-ride-morocco" },
       { label: "Private Transfers", href: "/tours/private-morocco-transfers" },
       { label: "Tangier–Casablanca Day Trip", href: "/tours/tangier-casablanca-day-trip" },
+      { label: "Gibraltar Day Trip", href: "/tours/tangier-day-trip-from-gibraltar" },
     ],
   },
   { label: "Jewish Heritage", href: "/jewish-heritage-tours" },

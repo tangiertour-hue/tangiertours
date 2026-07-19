@@ -8,6 +8,7 @@ const tourLinks = [
   { label: "Chefchaouen Day Trip", href: "/tours/chefchaouen-day-trip-from-tangier" },
   { label: "Camel Ride Experience", href: "/tours/camel-ride-morocco" },
   { label: "Private Transfers", href: "/tours/private-morocco-transfers" },
+  { label: "Gibraltar Day Trip", href: "/tours/tangier-day-trip-from-gibraltar" },
   { label: "Luxury Morocco Tours", href: "/luxury-morocco-tours" },
 ];
 
