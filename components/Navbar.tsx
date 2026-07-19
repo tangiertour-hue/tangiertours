@@ -21,6 +21,7 @@ const navItems = [
   },
   { label: "Jewish Heritage", href: "/jewish-heritage-tours" },
   { label: "Luxury Tours", href: "/luxury-morocco-tours" },
+  { label: "Pricing", href: "/pricing" },
   { label: "Destinations", href: "/destinations" },
   { label: "Gallery", href: "/gallery" },
   { label: "About Idrissi", href: "/about" },

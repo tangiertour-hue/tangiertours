@@ -20,8 +20,10 @@ const heritageLinks = [
 const companyLinks = [
   { label: "About Idrissi", href: "/about" },
   { label: "Customer Reviews", href: "/reviews" },
+  { label: "Pricing", href: "/pricing" },
   { label: "Destinations", href: "/destinations" },
   { label: "Blog", href: "/blog" },
+  { label: "Cancellation Policy", href: "/terms" },
   { label: "Contact & Booking", href: "/contact" },
 ];
 
