@@ -3,6 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Menu, X, Phone } from "lucide-react";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -86,8 +87,9 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {/* CTA */}
+          {/* CTA + Language Switcher */}
           <div className="hidden lg:flex items-center gap-3">
+            <LanguageSwitcher />
             <a
               href="https://wa.me/212668702424"
               target="_blank"
