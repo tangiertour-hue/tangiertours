@@ -75,7 +75,7 @@ const included = [
   "Entrance fee to Museum of Moroccan Judaism",
   "Local lunch at a hand-picked restaurant",
   "Bottled water throughout the day",
-  "All taxes and service charges",
+  "All taxes, insurance and service charges",
 ];
 
 const notIncluded = [
