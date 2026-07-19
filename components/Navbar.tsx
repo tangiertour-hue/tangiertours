@@ -16,6 +16,7 @@ const navItems = [
       { label: "Chefchaouen Day Trip", href: "/tours/chefchaouen-day-trip-from-tangier" },
       { label: "Camel Ride Experience", href: "/tours/camel-ride-morocco" },
       { label: "Private Transfers", href: "/tours/private-morocco-transfers" },
+      { label: "Tangier–Casablanca Day Trip", href: "/tours/tangier-casablanca-day-trip" },
     ],
   },
   { label: "Jewish Heritage", href: "/jewish-heritage-tours" },

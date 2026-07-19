@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/tours/chefchaouen-day-trip-from-tangier`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     { url: `${BASE_URL}/tours/camel-ride-morocco`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/tours/private-morocco-transfers`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/tours/tangier-casablanca-day-trip`, lastModified: now, changeFrequency: "monthly", priority: 0.88 },
     // Luxury
     { url: `${BASE_URL}/luxury-morocco-tours`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     // Jewish Heritage
@@ -34,5 +35,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Blog
     { url: `${BASE_URL}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/blog/jewish-heritage-morocco`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    // Legal
+    { url: `${BASE_URL}/terms`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },
   ];
 }
