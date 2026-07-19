@@ -26,7 +26,7 @@ const personSchema = {
     { "@type": "EducationalOccupationalCredential", credentialCategory: "certificate", name: "First Aid Certificate" },
   ],
   alumniOf: { "@type": "CollegeOrUniversity", name: "Université Abdelmalek Essaadi, Tangier" },
-  description: "Born and raised in Tangier, Idrissi is a Moroccan Ministry of Tourism licensed guide since 2008 specialising in Jewish heritage, city tours, shore excursions, and private transfers across northern Morocco.",
+  description: "Born in Fez and raised in the Medina of Tangier, Idrissi is a Moroccan Ministry of Tourism licensed guide since 2008 specialising in Jewish heritage, city tours, shore excursions, and private transfers across northern Morocco.",
 };
 
 const faqSchema = {
@@ -117,7 +117,7 @@ export default function AboutPage() {
           <h2 className="font-display text-2xl text-navy mb-6 gold-divider-left">Biography</h2>
           <div className="space-y-6 text-gray-700 leading-relaxed">
             <p>
-              Idrissi was born and raised in the Medina of Tangier — the ancient walled city at the meeting point of the Atlantic and the Mediterranean, Africa and Europe, Islam and a dozen other civilisations. He grew up in its alleyways, learned its rhythms and its secrets, and understood from an early age that Tangier was not merely a beautiful city but an extraordinarily complex one: a place where layer upon layer of history could be read in a single street, a single doorway, a single face. That understanding became a vocation.
+              Idrissi was born in Fez — the ancient imperial city and spiritual heart of Morocco — and raised in the Medina of Tangier, the storied port city where the Atlantic meets the Mediterranean and Africa faces Europe across just 14 kilometres of open water. Growing up between two of Morocco&apos;s most historically layered cities gave him a rare dual perspective: the depth and scholarly tradition of Fez, and the cosmopolitan, outward-looking character of Tangier. He grew up in the Medina&apos;s alleyways, learned its rhythms and its secrets, and understood from an early age that this city was not merely beautiful but extraordinarily complex — a place where centuries of history could be read in a single street, a single doorway, a single face. That understanding became a vocation.
             </p>
             <p>
               After completing secondary education in Tangier, Idrissi studied Tourism and History at the Université Abdelmalek Essaadi — the city&apos;s principal university — gaining a formal grounding in Moroccan cultural heritage, tourism management, and the history of North Africa. He received his official guide licence from the Moroccan Ministry of Tourism in 2008, following the national examination programme that tests candidates on history, geography, languages, and professional conduct. Since then, he has led more than 500 private tours and has welcomed clients from over 40 countries — families, solo travellers, academic researchers, cruise passengers, and heads of state.
