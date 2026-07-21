@@ -242,7 +242,7 @@ export default function HomePage() {
                 { icon: <Shield className="w-4 h-4 text-gold" />, text: "Licensed Guide" },
                 { icon: <Users className="w-4 h-4 text-gold" />, text: "500+ Tours Led" },
                 { icon: <Award className="w-4 h-4 text-gold" />, text: "15+ Years Experience" },
-                { icon: <MapPin className="w-4 h-4 text-gold" />, text: "5 Languages" },
+                { icon: <MapPin className="w-4 h-4 text-gold" />, text: "4 Languages" },
               ].map((t, i) => (
                 <div key={i} className="flex items-center gap-1.5">
                   {t.icon}
@@ -361,7 +361,7 @@ export default function HomePage() {
                   Licensed by the Moroccan Ministry of Tourism and fluent in five languages — English, French, Spanish, Arabic, and Hebrew — Idrissi is uniquely placed to serve travellers from across the world, including specialist Jewish heritage tours for families tracing their Moroccan roots.
                 </p>
                 <div className="flex flex-wrap gap-3 mb-8">
-                  {["English", "Français", "Español", "العربية", "עברית"].map((lang) => (
+                  {["English", "Français", "Español", "العربية"].map((lang) => (
                     <span key={lang} className="bg-navy/5 text-navy text-sm font-semibold px-3 py-1.5 rounded-full border border-navy/10">
                       {lang}
                     </span>

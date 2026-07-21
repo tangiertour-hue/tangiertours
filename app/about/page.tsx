@@ -9,7 +9,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Idrissi — Licensed Professional Tour Guide in Tangier, Morocco | TangierTours",
   description:
-    "Meet Idrissi — Tangier licensed tour guide since 2008. Moroccan Ministry of Tourism certified, Hebrew-speaking specialist in Jewish heritage tours. 500+ tours, 40+ countries, 4.9-star average.",
+    "Meet Idrissi — Tangier licensed tour guide since 2008. Moroccan Ministry of Tourism certified. Speaks Arabic, English, French and Spanish. 500+ tours, 40+ countries, 4.9-star average.",
 };
 
 const personSchema = {
@@ -20,7 +20,7 @@ const personSchema = {
   worksFor: { "@type": "Organization", name: "TangierTours", url: "https://www.tangiertours.ma" },
   url: "https://www.tangiertours.ma/about",
   address: { "@type": "PostalAddress", addressLocality: "Tangier", addressCountry: "MA" },
-  knowsLanguage: ["en", "fr", "es", "ar", "he"],
+  knowsLanguage: ["en", "fr", "es", "ar"],
   hasCredential: [
     { "@type": "EducationalOccupationalCredential", credentialCategory: "licence", name: "Moroccan Ministry of Tourism Official Guide Licence", dateCreated: "2008" },
     { "@type": "EducationalOccupationalCredential", credentialCategory: "certificate", name: "First Aid Certificate" },
@@ -43,10 +43,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Does Idrissi speak Hebrew?",
+      name: "What languages does Idrissi speak?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Idrissi speaks Hebrew and has led numerous tours for Israeli families and diaspora Jews returning to trace their Moroccan roots. His Hebrew fluency, combined with his deep knowledge of Moroccan Jewish history, makes him uniquely qualified for Jewish heritage tours.",
+        text: "Idrissi speaks Arabic, English, French and Spanish — making TangierTours accessible to travellers from around the world.",
       },
     },
     {
@@ -65,7 +65,7 @@ const languages = [
   { lang: "French", flag: "🇫🇷", note: "Morocco's second official language and Idrissi's strongest European tongue. Most French and Belgian visitors tour entirely in French." },
   { lang: "Spanish", flag: "🇪🇸", note: "Northern Morocco was a Spanish protectorate until 1956, and many older Tangerines still speak Spanish. Idrissi draws on this heritage for Spanish-speaking guests." },
   { lang: "Arabic", flag: "🇲🇦", note: "Both Modern Standard Arabic and Darija (Moroccan dialect) — allows genuine, unmediated access to local people, markets, and culture." },
-  { lang: "Hebrew", flag: "🇮🇱", note: "Learned specifically to serve Israeli and diaspora Jewish clients on heritage tours. A bridge between communities that have more shared history than most people realise." },
+
 ];
 
 const specialisations = [
@@ -85,7 +85,7 @@ const credentials = [
 
 const faqs = [
   { q: "Is Idrissi a certified guide?", a: "Yes. Idrissi holds an official guide licence from the Moroccan Ministry of Tourism, first granted in 2008 and continuously renewed. He is also a member of the Fédération Nationale des Guides Touristiques du Maroc." },
-  { q: "Does Idrissi speak Hebrew?", a: "Yes. Idrissi speaks Hebrew and has led numerous tours for Israeli families and diaspora Jews returning to trace their Moroccan roots. His Hebrew fluency, combined with deep knowledge of Moroccan Jewish history, makes him uniquely qualified for these tours." },
+  { q: "What languages does Idrissi speak?", a: "Idrissi speaks Arabic, English, French and Spanish — making TangierTours accessible to travellers from around the world." },
   { q: "How do I contact Idrissi?", a: "The fastest way is via WhatsApp — click the button on any page. You can also use the booking form or email via the contact page. Idrissi typically responds within a few hours." },
 ];
 
@@ -106,7 +106,7 @@ export default function AboutPage() {
             <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm text-gray-300">
               <span className="flex items-center gap-1.5"><Award className="w-4 h-4 text-[var(--gold)]" /> Licensed since 2008</span>
               <span className="flex items-center gap-1.5"><Star className="w-4 h-4 text-[var(--gold)]" /> 4.9 ★ average rating</span>
-              <span className="flex items-center gap-1.5"><Globe className="w-4 h-4 text-[var(--gold)]" /> 5 languages</span>
+              <span className="flex items-center gap-1.5"><Globe className="w-4 h-4 text-[var(--gold)]" /> 4 languages</span>
               <span className="flex items-center gap-1.5"><Users className="w-4 h-4 text-[var(--gold)]" /> 500+ tours</span>
             </div>
           </div>
@@ -123,7 +123,7 @@ export default function AboutPage() {
               After completing secondary education in Tangier, Idrissi studied Tourism and History at the Université Abdelmalek Essaadi — the city&apos;s principal university — gaining a formal grounding in Moroccan cultural heritage, tourism management, and the history of North Africa. He received his official guide licence from the Moroccan Ministry of Tourism in 2008, following the national examination programme that tests candidates on history, geography, languages, and professional conduct. Since then, he has led more than 500 private tours and has welcomed clients from over 40 countries — families, solo travellers, academic researchers, cruise passengers, and heads of state.
             </p>
             <p>
-              Over the years, Idrissi has developed a particular specialisation in Jewish heritage tourism — a niche that emerged naturally from his deep engagement with Tangier&apos;s history and from the growing number of visitors seeking to understand Morocco&apos;s extraordinary Jewish past. He taught himself Hebrew specifically to serve Israeli and diaspora clients, and has spent years studying the history of the Moroccan Jewish communities in detail: their origins, their institutions, their relationship with Muslim neighbours and Moroccan rulers, and the bittersweet story of their post-1948 dispersal. He is known within the Jewish heritage travel community for the depth of his knowledge and the sensitivity with which he guides families through what are often deeply emotional encounters with history.
+              Over the years, Idrissi has developed a particular specialisation in Jewish heritage tourism — a niche that emerged naturally from his deep engagement with Tangier&apos;s history and from the growing number of visitors seeking to understand Morocco&apos;s extraordinary Jewish past. He has spent years studying the history of the Moroccan Jewish communities in detail: their origins, their institutions, their relationship with Muslim neighbours and Moroccan rulers, and the bittersweet story of their post-1948 dispersal. He is known within the Jewish heritage travel community for the depth of his knowledge and the sensitivity with which he guides families through what are often deeply emotional encounters with history.
             </p>
             <p>
               Beyond heritage tours, Idrissi leads shore excursions for cruise passengers, full-day trips to Chefchaouen, camel rides at Cape Spartel, and private transfers across northern Morocco. His 4.9-star average across review platforms reflects not just knowledge but a fundamental quality that no training programme teaches: the ability to make every visitor feel that this tour was made specifically for them — because it was.
