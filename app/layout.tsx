@@ -21,6 +21,8 @@ const sourceSans = Source_Sans_3({
   display: "swap",
 });
 
+const BASE_URL = "https://www.tangiertours.ma";
+
 export const metadata: Metadata = {
   ...jsonMetadata,
   icons: {
@@ -29,6 +31,10 @@ export const metadata: Metadata = {
       { url: "/favicon.png", type: "image/png", sizes: "32x32" },
     ],
     apple: { url: "/favicon.png", sizes: "32x32" },
+  },
+  // Google Search Console verification — replace with your real token
+  verification: {
+    google: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ?? "",
   },
 };
 
@@ -40,6 +46,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* hreflang — tells Google which language version to serve to which users */}
+        <link rel="alternate" hrefLang="en" href={`${BASE_URL}/`} />
+        <link rel="alternate" hrefLang="es" href={`${BASE_URL}/es/`} />
+        <link rel="alternate" hrefLang="ru" href={`${BASE_URL}/ru/`} />
+        <link rel="alternate" hrefLang="x-default" href={`${BASE_URL}/`} />
         {process.env.NODE_ENV === "production" && (
           <Script
             async
