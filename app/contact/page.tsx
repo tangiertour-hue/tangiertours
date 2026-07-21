@@ -21,7 +21,7 @@ const localBusinessSchema = {
   description: "Private tour guide services in Tangier and Northern Morocco",
   url: "https://www.tangiertours.ma",
   telephone: "+212668702424",
-  email: "tangiertourplus@gmail.com",
+  email: "tangiertour@gmail.com",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Tangier",
@@ -58,8 +58,8 @@ const contactCards = [
   {
     icon: Mail,
     title: "Email",
-    value: "tangiertourplus@gmail.com",
-    sub: "Response within 2 hours",
+    value: "tangiertour@gmail.com",
+    sub: "Bookings & enquiries — reply within 2 hours",
     color: "text-blue-600",
     bg: "bg-blue-50",
   },
