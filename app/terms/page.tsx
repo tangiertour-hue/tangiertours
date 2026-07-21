@@ -75,7 +75,7 @@ function CancellationPolicy() {
           </tbody>
         </table>
       </div>
-      <p className="mt-4">All cancellation requests must be submitted in writing — by email to <a href="mailto:tangiertour@gmail.com" className="text-gold hover:underline">tangiertour@gmail.com</a> or via WhatsApp message to <a href="https://wa.me/212668702424" className="text-gold hover:underline">+212 668-702-424</a>. Verbal cancellations are not accepted.</p>
+      <p className="mt-4">All cancellation requests must be submitted in writing — by email to <a href="mailto:tangiertourplus@gmail.com" className="text-gold hover:underline">tangiertourplus@gmail.com</a> or via WhatsApp message to <a href="https://wa.me/212668702424" className="text-gold hover:underline">+212 668-702-424</a>. Verbal cancellations are not accepted.</p>
     </Section>
   );
 }
@@ -137,9 +137,9 @@ function Contact() {
           className="inline-flex items-center gap-2 bg-[#25D366] text-white font-bold px-6 py-3 rounded hover:bg-[#20BA5A] transition">
           WhatsApp +212 668-702-424
         </a>
-        <a href="mailto:tangiertour@gmail.com"
+        <a href="mailto:tangiertourplus@gmail.com"
           className="inline-flex items-center gap-2 bg-white/10 border border-white/30 text-white font-semibold px-6 py-3 rounded hover:bg-white/20 transition">
-          tangiertour@gmail.com
+          tangiertourplus@gmail.com
         </a>
       </div>
       <p className="text-white/40 text-xs mt-6">Last updated: July 2025 · TangierTours · Tangier, Morocco</p>

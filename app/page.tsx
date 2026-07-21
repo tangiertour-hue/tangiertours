@@ -34,7 +34,7 @@ const localBusinessSchema = {
     "Licensed private tour guide service in Tangier, Morocco. Specialising in private tours, Jewish heritage experiences, shore excursions, and luxury Morocco travel.",
   url: "https://www.tangiertours.ma",
   telephone: "+212668702424",
-  email: "tangiertour@gmail.com",
+  email: "tangiertourplus@gmail.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Tangier Medina",
