@@ -86,7 +86,7 @@ const faqSchema = {
       name: "What languages does the tour guide speak?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Idrissi speaks English, French, Spanish, Arabic, and Hebrew — making TangierTours uniquely accessible to travelers from around the world.",
+        text: "Idrissi speaks Arabic, English, French, and Spanish — making TangierTours uniquely accessible to travelers from around the world.",
       },
     },
     {
