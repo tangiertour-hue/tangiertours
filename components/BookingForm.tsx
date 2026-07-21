@@ -56,9 +56,9 @@ export default function BookingForm({
         <CheckCircle className="w-12 h-12 text-green-500 mx-auto mb-4" />
         <h3 className="font-display text-xl font-bold text-navy mb-2">Booking Request Received!</h3>
         <p className="text-muted-text mb-6">
-          Thank you, {form.name}! Abdelhamid will confirm within 2 hours. To secure your booking, send a <strong className="text-navy">€30 deposit</strong> using the details below.
+          Thank you, {form.name}! Abdelhamid will confirm within 2 hours. To secure your booking, send a <strong className="text-navy">€85 deposit</strong> using the details below.
         </p>
-        <DepositPayment tourName={form.tour || "your tour"} depositAmount="€30" />
+        <DepositPayment tourName={form.tour || "your tour"} depositAmount="€85" />
       </div>
     );
   }

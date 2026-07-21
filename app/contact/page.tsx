@@ -249,9 +249,9 @@ export default function ContactPage() {
             Ready to Confirm? Pay Your Deposit
           </h2>
           <p className="text-center text-muted-text text-sm mt-6 mb-8">
-            Once Abdelhamid confirms availability, secure your booking with a <strong className="text-navy">€30 deposit</strong> by bank transfer.
+            Once Abdelhamid confirms availability, secure your booking with a <strong className="text-navy">€85 deposit</strong> by bank transfer.
           </p>
-          <DepositPayment depositAmount="€30" />
+          <DepositPayment depositAmount="€85" />
         </section>
       </main>
 

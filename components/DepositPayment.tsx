@@ -9,7 +9,7 @@ interface DepositPaymentProps {
 
 export default function DepositPayment({
   tourName = "your tour",
-  depositAmount = "€30",
+  depositAmount = "€85",
 }: DepositPaymentProps) {
   const [copiedField, setCopiedField] = useState<string | null>(null);
 

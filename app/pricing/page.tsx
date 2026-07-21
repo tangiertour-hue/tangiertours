@@ -268,12 +268,12 @@ function CtaSection() {
           </Link>
         </div>
         <p className="text-xs text-muted-text mt-6">
-          View our <Link href="/terms" className="text-gold hover:underline">cancellation policy</Link> · €30 deposit secures your booking
+          View our <Link href="/terms" className="text-gold hover:underline">cancellation policy</Link> · €85 deposit secures your booking
         </p>
       </div>
       <div className="max-w-2xl mx-auto mt-10 px-4">
         <h3 className="font-display text-xl font-bold text-navy text-center mb-6">How to Pay Your Deposit</h3>
-        <DepositPayment depositAmount="€30" />
+        <DepositPayment depositAmount="€85" />
       </div>
     </section>
   );
