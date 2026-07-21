@@ -36,6 +36,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // Blog
     { url: `${BASE_URL}/blog`, lastModified: now, changeFrequency: "weekly", priority: 0.7 },
     { url: `${BASE_URL}/blog/jewish-heritage-morocco`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${BASE_URL}/blog/tangier-to-casablanca-by-train`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     // Pricing
     { url: `${BASE_URL}/pricing`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     // Legal
