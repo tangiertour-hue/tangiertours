@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
 import BookingForm from "@/components/BookingForm";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import DepositPayment from "@/components/DepositPayment";
 
 export const metadata: Metadata = {
   title: "Contact TangierTours — Book Your Private Morocco Tour | WhatsApp",
@@ -240,6 +241,17 @@ export default function ContactPage() {
               </div>
             ))}
           </div>
+        </section>
+
+        {/* Deposit Payment Section */}
+        <section className="max-w-2xl mx-auto px-4 pb-16">
+          <h2 className="font-display text-2xl font-bold text-navy text-center mb-2 gold-divider">
+            Ready to Confirm? Pay Your Deposit
+          </h2>
+          <p className="text-center text-muted-text text-sm mt-6 mb-8">
+            Once Abdelhamid confirms availability, secure your booking with a <strong className="text-navy">€30 deposit</strong> by bank transfer.
+          </p>
+          <DepositPayment depositAmount="€30" />
         </section>
       </main>
 

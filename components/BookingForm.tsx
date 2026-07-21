@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Phone, Send, CheckCircle } from "lucide-react";
+import DepositPayment from "@/components/DepositPayment";
 
 interface BookingFormProps {
   tourOptions?: string[];
@@ -54,17 +55,10 @@ export default function BookingForm({
       <div className="bg-white border border-border-warm rounded p-8 text-center">
         <CheckCircle className="w-12 h-12 text-green-500 mx-auto mb-4" />
         <h3 className="font-display text-xl font-bold text-navy mb-2">Booking Request Received!</h3>
-        <p className="text-muted-text mb-4">
-          Thank you, {form.name}. We reply within 2 hours. Check your inbox — or message us directly on WhatsApp for instant confirmation.
+        <p className="text-muted-text mb-6">
+          Thank you, {form.name}! Abdelhamid will confirm within 2 hours. To secure your booking, send a <strong className="text-navy">€30 deposit</strong> using the details below.
         </p>
-        <a
-          href={`https://wa.me/212668702424?text=Hi%20Idrissi%2C%20I%20just%20submitted%20a%20booking%20request%20for%20${encodeURIComponent(form.tour || "a tour")}%20on%20${encodeURIComponent(form.date || "a date to confirm")}.`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 bg-[#25D366] text-white font-semibold px-6 py-3 rounded hover:bg-[#20BA5A] transition-colors"
-        >
-          <Phone className="w-4 h-4" /> Confirm on WhatsApp
-        </a>
+        <DepositPayment tourName={form.tour || "your tour"} depositAmount="€30" />
       </div>
     );
   }
