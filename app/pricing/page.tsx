@@ -10,18 +10,34 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import DepositPayment from "@/components/DepositPayment";
 
 export const metadata: Metadata = {
-  title: "Tour Prices — TangierTours | Private Tours Morocco",
+  title: "Personalized Pricing — TangierTours | Private Tours Morocco",
   description:
-    "Transparent pricing for all TangierTours private tours — Tangier city tours, shore excursions, Chefchaouen day trips, Jewish heritage tours, camel rides and luxury Morocco experiences.",
+    "Every TangierTours private tour and transfer is individually priced to your schedule, group size, itinerary and preferences. Contact us for a personalized quotation.",
   keywords:
-    "Tangier tour price, Morocco private tour cost, how much tour guide Morocco, Tangier shore excursion price, Morocco tour guide fee",
+    "Tangier private tour price, Morocco tour guide quote, private Morocco tour cost, Tangier tour enquiry, Morocco personalized tour",
 };
 
 // ── data ─────────────────────────────────────────────────
+const services = [
+  { icon: "🕌", title: "Tangier Private Tours", href: "/tours/tangier-private-tours", desc: "Half-day and full-day private exploration of Tangier — Medina, Kasbah, Cape Spartel, Caves of Hercules." },
+  { icon: "⚓", title: "Shore Excursions", href: "/tours/tangier-shore-excursions", desc: "Private port tours planned around your ship's departure schedule." },
+  { icon: "🏔️", title: "Chefchaouen Day Trip", href: "/tours/chefchaouen-day-trip-from-tangier", desc: "Full-day private journey to the Blue City of Morocco." },
+  { icon: "🚄", title: "Tangier–Casablanca Day Trip", href: "/tours/tangier-casablanca-day-trip", desc: "Two cities in one day on the Al Boraq high-speed train." },
+  { icon: "⛴️", title: "Gibraltar Day Trip", href: "/tours/tangier-day-trip-from-gibraltar", desc: "Cross from Gibraltar to Tangier by fast ferry — 35 minutes." },
+  { icon: "⛵", title: "Tarifa Day Trip", href: "/tours/tangier-day-trip-from-tarifa", desc: "The shortest crossing — Tarifa to Tangier in 35 minutes." },
+  { icon: "✡️", title: "Jewish Heritage Tours", href: "/jewish-heritage-tours", desc: "Specialist private tours of Tangier and Casablanca Jewish heritage." },
+  { icon: "💎", title: "Luxury Morocco Tours", href: "/luxury-morocco-tours", desc: "Bespoke multi-day private itineraries across Morocco." },
+  { icon: "🐫", title: "Camel Ride Experience", href: "/tours/camel-ride-morocco", desc: "Atlantic dunes at Cape Spartel — can be combined with any Tangier tour." },
+  { icon: "🚗", title: "Private Transfers", href: "/tours/private-morocco-transfers", desc: "Airport, hotel and city-to-city transfers across Morocco." },
+  { icon: "✈️", title: "Casablanca Layover Tours", href: "/tours/casablanca-layover-tours", desc: "Private tours and CMN airport transfers for long layovers." },
+  { icon: "🛎️", title: "Airport Meet & Greet", href: "/services/airport-meet-greet", desc: "Arrival, departure and VIP airport assistance in Morocco." },
+];
+
+// keeping for "what's included" section
 const tourPrices = [
   {
-    category: "Tangier City Tours",
-    icon: "🕌",
+    category: "placeholder",
+    icon: "",
     tours: [
       { name: "Tangier Private Half-Day Tour", duration: "4 hours", price: "From €80 / group", note: "Medina, Grand Socco, Kasbah viewpoint, mint tea", href: "/tours/tangier-private-tours" },
       { name: "Tangier Private Full-Day Tour", duration: "8 hours", price: "From €150 / group", note: "All half-day + Cape Spartel, Caves of Hercules, local lunch", href: "/tours/tangier-private-tours" },
@@ -110,10 +126,9 @@ export default function PricingPage() {
       <Navbar />
       <main className="bg-ivory min-h-screen">
         <HeroSection />
-        <IntroSection />
-        <PricingTableSection />
+        <PersonalizedSection />
+        <ServicesSection />
         <IncludedSection />
-        <FaqSection />
         <CtaSection />
       </main>
       <Footer />
@@ -126,32 +141,58 @@ export default function PricingPage() {
 function HeroSection() {
   return (
     <section className="relative pt-16 overflow-hidden" style={{ minHeight: "380px" }}>
-      <Image src="/hero-pricing.jpg" alt="Morocco tour pricing — Moroccan map, compass and mint tea" fill priority className="object-cover object-center" sizes="100vw" />
+      <Image src="/hero-pricing.jpg" alt="Private Morocco tour — personalized experience" fill priority className="object-cover object-center" sizes="100vw" />
       <div className="absolute inset-0" style={{ background: "linear-gradient(to bottom,rgba(15,31,61,0.72) 0%,rgba(15,31,61,0.58) 55%,rgba(15,31,61,0.85) 100%)" }} />
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 py-20 text-center">
         <Breadcrumb items={[{ label: "Pricing" }]} />
         <div className="mt-6 inline-flex items-center gap-2 bg-gold/20 border border-gold/40 text-gold text-sm font-semibold px-4 py-1.5 rounded-full mb-5">
-          <Star className="w-3.5 h-3.5" /> Transparent Pricing · No Hidden Fees · No Surprises
+          <Star className="w-3.5 h-3.5" /> Private · Tailored · No Hidden Fees
         </div>
         <h1 className="font-display text-4xl sm:text-5xl font-bold text-white leading-tight mb-4">
-          Tour Prices &amp; Packages
+          Personalized Pricing
         </h1>
         <p className="text-white/75 text-lg max-w-2xl mx-auto leading-relaxed">
-          Clear, honest pricing for every tour and experience. All prices are per group unless stated — so the more you share, the better the value.
+          Every journey is different. Contact us for a personalized quotation tailored to your schedule, group size, itinerary and preferences.
         </p>
       </div>
     </section>
   );
 }
 
-function IntroSection() {
+function PersonalizedSection() {
   return (
-    <section className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
+    <section className="max-w-4xl mx-auto px-4 sm:px-6 py-14">
+      {/* Main message */}
+      <div className="bg-white border border-border-warm rounded-lg p-8 sm:p-12 text-center shadow-sm mb-10">
+        <div className="text-5xl mb-5">✉️</div>
+        <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-4">
+          Personalized Pricing
+        </h2>
+        <p className="text-muted-text leading-relaxed max-w-2xl mx-auto mb-2 text-base">
+          Every journey is different. Our private tours and transfers are individually tailored to your schedule, group size, itinerary and preferences.
+        </p>
+        <p className="text-navy font-semibold text-base mb-8">
+          Contact us for a personalized quotation.
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <a href="https://wa.me/212668702424?text=Hi%20Abdelhamid%2C%20I%20would%20like%20a%20personalized%20quote%20for%20a%20private%20tour%20in%20Morocco."
+            target="_blank" rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white font-bold px-8 py-3.5 rounded hover:bg-[#20BA5A] transition">
+            <Phone className="w-4 h-4" /> WhatsApp for a Quote
+          </a>
+          <Link href="/contact"
+            className="inline-flex items-center justify-center gap-2 bg-navy text-white font-bold px-8 py-3.5 rounded hover:bg-navy/90 transition">
+            Request My Private Tour <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
+      </div>
+
+      {/* How pricing works */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
         {[
-          { icon: "💬", title: "No upfront payment", desc: "Enquire freely — no deposit required for most tours. Pay on the day." },
-          { icon: "👥", title: "Prices per group", desc: "Most prices are for your whole group, not per person. Split the cost and save." },
-          { icon: "✏️", title: "Custom quotes", desc: "Don't see exactly what you need? WhatsApp Idrissi for a personalised proposal within 2 hours." },
+          { icon: "👥", title: "Group size", desc: "Whether you are travelling solo, as a couple, a family or a small group — your quote reflects exactly your party." },
+          { icon: "🗺️", title: "Your itinerary", desc: "Duration, destinations, entrance fees, meals and special requests are all factored into your personalized proposal." },
+          { icon: "⚡", title: "Reply within 2 hours", desc: "Contact us by WhatsApp or the booking form and receive a detailed, transparent quote within 2 hours." },
         ].map((item) => (
           <div key={item.title} className="bg-white border border-border-warm rounded p-5 text-center">
             <span className="text-3xl block mb-3">{item.icon}</span>
@@ -163,38 +204,23 @@ function IntroSection() {
     </section>
   );
 }
-function PricingTableSection() {
+function ServicesSection() {
   return (
-    <section id="pricing" className="max-w-5xl mx-auto px-4 sm:px-6 pb-14 space-y-10">
-      <h2 className="font-display text-3xl font-bold text-navy text-center gold-divider mb-10">All Tours &amp; Prices</h2>
-      {tourPrices.map((cat) => (
-        <div key={cat.category} className="bg-white border border-border-warm rounded overflow-hidden">
-          <div className="bg-navy px-6 py-3 flex items-center gap-3">
-            <span className="text-xl">{cat.icon}</span>
-            <h3 className="font-display text-lg font-bold text-white">{cat.category}</h3>
-          </div>
-          <div className="divide-y divide-border-warm">
-            {cat.tours.map((tour) => (
-              <div key={tour.name} className="px-5 py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3 hover:bg-ivory transition-colors">
-                <div className="flex-1">
-                  <div className="font-semibold text-navy text-sm">{tour.name}</div>
-                  <div className="text-xs text-muted-text mt-0.5">{tour.note}</div>
-                </div>
-                <div className="flex items-center gap-4 shrink-0">
-                  <span className="text-xs text-muted-text bg-navy/5 px-2.5 py-1 rounded-full">{tour.duration}</span>
-                  <span className="font-bold text-gold text-sm whitespace-nowrap">{tour.price}</span>
-                  <Link href={tour.href} className="text-navy hover:text-gold transition-colors">
-                    <ArrowRight className="w-4 h-4" />
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      ))}
-      <p className="text-center text-xs text-muted-text pt-2">
-        All prices shown in Euros (€). Moroccan Dirhams, USD and GBP also accepted. Prices correct as of 2025 and subject to change for 2026 season — confirm when booking.
-      </p>
+    <section className="max-w-5xl mx-auto px-4 sm:px-6 pb-14">
+      <h2 className="font-display text-3xl font-bold text-navy text-center gold-divider mb-10">Our Services</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+        {services.map((svc) => (
+          <Link key={svc.href} href={svc.href}
+            className="group bg-white border border-border-warm rounded p-5 hover:shadow-md transition-all flex flex-col">
+            <span className="text-3xl mb-3 block">{svc.icon}</span>
+            <h3 className="font-display text-base font-bold text-navy mb-2 group-hover:text-gold transition-colors">{svc.title}</h3>
+            <p className="text-sm text-muted-text leading-relaxed flex-1">{svc.desc}</p>
+            <span className="mt-3 inline-flex items-center gap-1 text-gold text-xs font-semibold">
+              Get a quote <ArrowRight className="w-3 h-3 group-hover:translate-x-1 transition-transform" />
+            </span>
+          </Link>
+        ))}
+      </div>
     </section>
   );
 }
@@ -230,31 +256,13 @@ function IncludedSection() {
     </section>
   );
 }
-function FaqSection() {
-  return (
-    <section id="faq" className="max-w-3xl mx-auto px-4 sm:px-6 py-14">
-      <h2 className="font-display text-2xl font-bold text-navy mb-6 gold-divider-left">Pricing FAQs</h2>
-      <div className="space-y-3 mt-6">
-        {faqs.map((f, i) => (
-          <details key={i} className="bg-white border border-border-warm rounded group">
-            <summary className="px-5 py-4 cursor-pointer font-semibold text-navy flex justify-between list-none hover:text-gold transition-colors text-sm">
-              {f.q}<span className="text-gold ml-2 shrink-0 group-open:rotate-180 transition-transform">▾</span>
-            </summary>
-            <div className="px-5 pb-4 text-muted-text text-sm leading-relaxed border-t border-border-warm pt-3">{f.a}</div>
-          </details>
-        ))}
-      </div>
-    </section>
-  );
-}
-
 function CtaSection() {
   return (
     <section id="cta" className="bg-white border-t border-border-warm py-14 px-4">
       <div className="max-w-3xl mx-auto text-center">
-        <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-3">Ready to Book?</h2>
+        <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy mb-3">Request Your Personalized Quote</h2>
         <p className="text-muted-text leading-relaxed mb-8 max-w-xl mx-auto">
-          Prices are a guide — every group and itinerary is different. Message Idrissi directly for a personalised quote within 2 hours, with no obligation to book.
+          Share your travel dates, group size and interests — we will send you a clear, transparent proposal within 2 hours. No obligation to book.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="https://wa.me/212668702424?text=Hi%20Idrissi%2C%20I%27d%20like%20a%20quote%20for%20a%20private%20tour%20in%20Morocco."
@@ -268,12 +276,8 @@ function CtaSection() {
           </Link>
         </div>
         <p className="text-xs text-muted-text mt-6">
-          View our <Link href="/terms" className="text-gold hover:underline">cancellation policy</Link> · €85 deposit secures your booking
+          View our <Link href="/terms" className="text-gold hover:underline">cancellation policy</Link>
         </p>
-      </div>
-      <div className="max-w-2xl mx-auto mt-10 px-4">
-        <h3 className="font-display text-xl font-bold text-navy text-center mb-6">How to Pay Your Deposit</h3>
-        <DepositPayment depositAmount="€85" />
       </div>
     </section>
   );
