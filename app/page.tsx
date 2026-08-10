@@ -265,6 +265,37 @@ export default function HomePage() {
           </div>
         </section>
 
+        {/* WHY TRAVEL WITH US */}
+        <section className="py-20 bg-white">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-14">
+              <span className="text-gold font-semibold text-sm tracking-widest uppercase">Our Promise</span>
+              <h2 className="font-display text-3xl sm:text-4xl font-bold text-navy mt-2 mb-4 gold-divider">
+                Why Travel With Us?
+              </h2>
+              <p className="text-muted-text max-w-2xl mx-auto mt-6">
+                Every detail below reflects how we actually work — not marketing copy.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {[
+                { icon: "🎓", title: "Licensed Local Expertise", desc: "Travel with a professionally licensed Moroccan tourist guide with deep knowledge of Tangier and northern Morocco." },
+                { icon: "👤", title: "Private & Personalised", desc: "Your itinerary is adapted to your interests, schedule, mobility and group size. No strangers. No compromises." },
+                { icon: "🚗", title: "Professional Transportation", desc: "Private chauffeur-driven transportation is available for customized tours and excursions across Morocco." },
+                { icon: "⚓", title: "Cruise-Safe Planning", desc: "Shore excursions are planned around your ship's arrival and departure schedule, with sufficient time for your return." },
+                { icon: "🌍", title: "Multilingual Service", desc: "Tours can be arranged in English, French, Spanish and Arabic. We communicate in your language from first contact." },
+                { icon: "🔍", title: "Local Knowledge", desc: "Discover Tangier beyond the standard tourist route — through authentic stories, history, culture and local perspectives." },
+              ].map((item) => (
+                <div key={item.title} className="bg-ivory border border-border-warm rounded p-6">
+                  <span className="text-3xl block mb-4">{item.icon}</span>
+                  <h3 className="font-display text-lg font-bold text-navy mb-2">{item.title}</h3>
+                  <p className="text-sm text-muted-text leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* JEWISH HERITAGE SPOTLIGHT */}
         <section className="py-20 bg-navy text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

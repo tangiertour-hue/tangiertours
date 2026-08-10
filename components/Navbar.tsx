@@ -19,6 +19,8 @@ const navItems = [
       { label: "Tangier–Casablanca Day Trip", href: "/tours/tangier-casablanca-day-trip" },
       { label: "Gibraltar Day Trip", href: "/tours/tangier-day-trip-from-gibraltar" },
       { label: "Casablanca Layover Tours", href: "/tours/casablanca-layover-tours" },
+      { label: "Tarifa Day Trip", href: "/tours/tangier-day-trip-from-tarifa" },
+      { label: "Airport Meet & Greet", href: "/services/airport-meet-greet" },
     ],
   },
   { label: "Jewish Heritage", href: "/jewish-heritage-tours" },

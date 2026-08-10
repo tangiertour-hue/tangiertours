@@ -10,6 +10,8 @@ const tourLinks = [
   { label: "Private Transfers", href: "/tours/private-morocco-transfers" },
   { label: "Gibraltar Day Trip", href: "/tours/tangier-day-trip-from-gibraltar" },
   { label: "Casablanca Layover Tours", href: "/tours/casablanca-layover-tours" },
+  { label: "Tarifa Day Trip", href: "/tours/tangier-day-trip-from-tarifa" },
+  { label: "Airport Meet & Greet", href: "/services/airport-meet-greet" },
   { label: "Luxury Morocco Tours", href: "/luxury-morocco-tours" },
 ];
 
