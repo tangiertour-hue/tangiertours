@@ -131,6 +131,19 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* Philosophy Quote */}
+        <section className="bg-gold/10 border-y border-gold/25 py-12 px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="text-4xl text-gold mb-4">&ldquo;</div>
+            <blockquote className="font-display text-xl sm:text-2xl font-semibold text-navy leading-relaxed italic">
+              We believe the best journeys are built on genuine connections — because people book people, not just tours!
+            </blockquote>
+            <div className="mt-5 text-sm font-semibold text-gold tracking-widest uppercase">
+              Abdelhamid Idrissi · TangierTours
+            </div>
+          </div>
+        </section>
+
         {/* Languages */}
         <section className="bg-navy py-16 px-4">
           <div className="max-w-4xl mx-auto">

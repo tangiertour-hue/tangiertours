@@ -18,6 +18,7 @@ const navItems = [
       { label: "Private Transfers", href: "/tours/private-morocco-transfers" },
       { label: "Tangier–Casablanca Day Trip", href: "/tours/tangier-casablanca-day-trip" },
       { label: "Gibraltar Day Trip", href: "/tours/tangier-day-trip-from-gibraltar" },
+      { label: "Casablanca Layover Tours", href: "/tours/casablanca-layover-tours" },
     ],
   },
   { label: "Jewish Heritage", href: "/jewish-heritage-tours" },

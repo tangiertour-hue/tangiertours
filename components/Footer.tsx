@@ -9,6 +9,7 @@ const tourLinks = [
   { label: "Camel Ride Experience", href: "/tours/camel-ride-morocco" },
   { label: "Private Transfers", href: "/tours/private-morocco-transfers" },
   { label: "Gibraltar Day Trip", href: "/tours/tangier-day-trip-from-gibraltar" },
+  { label: "Casablanca Layover Tours", href: "/tours/casablanca-layover-tours" },
   { label: "Luxury Morocco Tours", href: "/luxury-morocco-tours" },
 ];
 
