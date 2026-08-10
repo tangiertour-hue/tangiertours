@@ -71,7 +71,7 @@ const languages = [
 const specialisations = [
   { icon: MapPin, title: "Tangier City Tours", desc: "Half-day and full-day private exploration of the Medina, Kasbah, Cap Spartel, and the Caves of Hercules." },
   { icon: BookOpen, title: "Jewish Heritage Tours", desc: "Tangier and Casablanca Jewish heritage specialist — Mellah, synagogues, cemeteries, genealogical research." },
-  { icon: Shield, title: "Shore Excursions", desc: "Cruise ship port tours designed around guaranteed return times — never missed an embarkation." },
+  { icon: Shield, title: "Shore Excursions", desc: "Cruise port tours planned around your ship's departure schedule, with time allocated for a comfortable return." },
   { icon: Star, title: "Luxury Bespoke", desc: "Multi-day custom itineraries for clients who want the finest private experience Morocco can offer." },
   { icon: Globe, title: "Chefchaouen Day Trips", desc: "Full-day private excursions to the Blue City, including stops at hidden viewpoints and local lunch." },
   { icon: Users, title: "Transfer Services", desc: "Airport, hotel, and city-to-city transfers across Morocco — professional, punctual, door-to-door." },
@@ -104,10 +104,10 @@ export default function AboutPage() {
               About Idrissi —<br />Licensed Professional Tour Guide<br />in Tangier, Morocco
             </h1>
             <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm text-gray-300">
-              <span className="flex items-center gap-1.5"><Award className="w-4 h-4 text-[var(--gold)]" /> Licensed since 2008</span>
-              <span className="flex items-center gap-1.5"><Star className="w-4 h-4 text-[var(--gold)]" /> 4.9 ★ average rating</span>
-              <span className="flex items-center gap-1.5"><Globe className="w-4 h-4 text-[var(--gold)]" /> 4 languages</span>
-              <span className="flex items-center gap-1.5"><Users className="w-4 h-4 text-[var(--gold)]" /> 500+ tours</span>
+              <span className="flex items-center gap-1.5"><Award className="w-4 h-4 text-[var(--gold)]" /> Licensed by Morocco Ministry of Tourism</span>
+              <span className="flex items-center gap-1.5"><Globe className="w-4 h-4 text-[var(--gold)]" /> English · French · Spanish · Arabic</span>
+              <span className="flex items-center gap-1.5"><Users className="w-4 h-4 text-[var(--gold)]" /> Private & Personalised Tours</span>
+              <span className="flex items-center gap-1.5"><MapPin className="w-4 h-4 text-[var(--gold)]" /> Based in Tangier, Morocco</span>
             </div>
           </div>
         </section>
@@ -120,13 +120,13 @@ export default function AboutPage() {
               Idrissi was born in Fez — the ancient imperial city and spiritual heart of Morocco — and raised in the Medina of Tangier, the storied port city where the Atlantic meets the Mediterranean and Africa faces Europe across just 14 kilometres of open water. Growing up between two of Morocco&apos;s most historically layered cities gave him a rare dual perspective: the depth and scholarly tradition of Fez, and the cosmopolitan, outward-looking character of Tangier. He grew up in the Medina&apos;s alleyways, learned its rhythms and its secrets, and understood from an early age that this city was not merely beautiful but extraordinarily complex — a place where centuries of history could be read in a single street, a single doorway, a single face. That understanding became a vocation.
             </p>
             <p>
-              After completing secondary education in Tangier, Idrissi studied Tourism and History at the Université Abdelmalek Essaadi — the city&apos;s principal university — gaining a formal grounding in Moroccan cultural heritage, tourism management, and the history of North Africa. He received his official guide licence from the Moroccan Ministry of Tourism in 2008, following the national examination programme that tests candidates on history, geography, languages, and professional conduct. Since then, he has led more than 500 private tours and has welcomed clients from over 40 countries — families, solo travellers, academic researchers, cruise passengers, and heads of state.
+              After completing secondary education in Tangier, Idrissi studied Tourism and History at the Université Abdelmalek Essaadi — the city&apos;s principal university — gaining a formal grounding in Moroccan cultural heritage, tourism management, and the history of North Africa. He received his official guide licence from the Moroccan Ministry of Tourism, following the national examination programme that tests candidates on history, geography, languages, and professional conduct. Since then, he has guided private travellers from many countries — families, couples, solo visitors, cruise passengers, and small groups — each with their own interests and itinerary.
             </p>
             <p>
               Over the years, Idrissi has developed a particular specialisation in Jewish heritage tourism — a niche that emerged naturally from his deep engagement with Tangier&apos;s history and from the growing number of visitors seeking to understand Morocco&apos;s extraordinary Jewish past. He has spent years studying the history of the Moroccan Jewish communities in detail: their origins, their institutions, their relationship with Muslim neighbours and Moroccan rulers, and the bittersweet story of their post-1948 dispersal. He is known within the Jewish heritage travel community for the depth of his knowledge and the sensitivity with which he guides families through what are often deeply emotional encounters with history.
             </p>
             <p>
-              Beyond heritage tours, Idrissi leads shore excursions for cruise passengers, full-day trips to Chefchaouen, camel rides at Cape Spartel, and private transfers across northern Morocco. His 4.9-star average across review platforms reflects not just knowledge but a fundamental quality that no training programme teaches: the ability to make every visitor feel that this tour was made specifically for them — because it was.
+              Beyond heritage tours, Abdelhamid leads shore excursions for cruise passengers, full-day trips to Chefchaouen, camel rides at Cape Spartel, and private transfers across northern Morocco. What sets him apart is not a statistic but a quality that no certification measures: the ability to make every visitor feel that this tour was designed specifically for them — because it was.
             </p>
           </div>
         </section>

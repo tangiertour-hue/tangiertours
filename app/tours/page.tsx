@@ -35,7 +35,7 @@ const tours = [
     icon: Shield,
     title: "Tangier Shore Excursions",
     description:
-      "Arriving by cruise? Our private port tours are built around your schedule with guaranteed return times — so you never miss embarkation while still seeing everything that matters.",
+      "Arriving by cruise? Shore excursions are planned around your ship's departure schedule, with sufficient time allocated for your return to port.",
     href: "/tours/tangier-shore-excursions",
   },
   {
@@ -131,7 +131,7 @@ export default function ToursPage() {
         <section className="max-w-6xl mx-auto px-4 py-16">
           <h2 className="font-display text-3xl text-navy text-center mb-2 gold-divider">Our Tours</h2>
           <p className="text-center text-gray-500 mt-6 mb-12">
-            Five distinct experiences — each private, each unforgettable.
+            Each tour is entirely private — designed around your group, your interests, and your schedule.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {tours.map((tour) => {

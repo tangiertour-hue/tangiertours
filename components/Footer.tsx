@@ -47,7 +47,7 @@ export default function Footer() {
             <div className="space-y-2 text-sm text-white/65">
               <div className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-gold shrink-0 mt-0.5" />
-                <span>Tangier Medina, Tangier 90000, Morocco</span>
+                <span>36 Ave Mly Ali Cherif, Tangier 90000, Morocco</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-gold shrink-0" />

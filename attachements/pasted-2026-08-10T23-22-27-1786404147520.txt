@@ -1,0 +1,660 @@
+MASTER PROMPT — TANGIERTOURS.MA PROFESSIONAL AUDIT & OPTIMIZATION
+You are working on the existing live website TangierTours.ma.
+
+IMPORTANT: Do NOT rebuild the website from scratch. Do NOT replace the current design unnecessarily. The existing website has a strong premium visual identity and structure. Your task is to carefully audit, correct, refine and improve the existing website while preserving its strongest elements.
+
+1. PRIMARY BUSINESS OBJECTIVE
+Transform TangierTours.ma into a premium, trustworthy, high-converting website for:
+
+Private Tours • Shore Excursions • Jewish Heritage Tours • Morocco Day Trips • Private Transfers
+
+The business is operated by a licensed professional tourist guide based in Tangier, Morocco, with extensive experience serving:
+
+Private travelers
+Couples
+Families
+Cruise passengers
+Jewish heritage travelers
+Small groups
+Luxury travelers
+Travelers arriving from Spain by ferry
+Corporate and customized groups
+The website must communicate:
+
+Personal service + local expertise + professionalism + reliability + authentic Moroccan experiences.
+
+Do not make the website look like a generic AI-generated travel website.
+
+2. BRAND POSITIONING
+Primary brand:
+
+TangierTours.ma
+
+Recommended positioning:
+
+Private Journeys. Timeless Morocco.
+
+Core message:
+
+Private Morocco experiences led by a licensed local guide, with personalized itineraries, professional transportation and exceptional local knowledge.
+
+Keep the tone:
+
+Premium
+Warm
+Professional
+Authentic
+Personal
+Confident
+Elegant
+Human
+Avoid excessive marketing clichés such as:
+
+"unforgettable adventure"
+"hidden gem"
+"journey of a lifetime"
+"magical experience"
+"once-in-a-lifetime"
+Use natural, sophisticated language instead.
+
+3. DO NOT INVENT INFORMATION
+This is extremely important.
+
+Never invent:
+
+reviews
+awards
+certifications
+memberships
+statistics
+number of tours
+number of countries served
+years of experience
+prices
+qualifications
+partnerships
+customer testimonials
+historical facts
+company registrations
+affiliations
+If information is uncertain, flag it for manual verification instead of inventing it.
+
+Audit the existing website for factual inconsistencies.
+
+4. CORRECT THE LANGUAGE INFORMATION
+Audit every page for language claims.
+
+The guide may provide service in:
+
+English, French, Spanish, Arabic and Hebrew, where applicable.
+
+Do not state "four languages" anywhere if five languages are being presented elsewhere.
+
+Use consistent language information throughout the website.
+
+5. PRICING POLICY
+Review all publicly displayed prices.
+
+Do NOT present unrealistically low "starting prices" that could create incorrect expectations for private tours.
+
+Private-tour prices depend on:
+
+Group size
+Duration
+Vehicle
+Pickup location
+Tour itinerary
+Entrance fees
+Language
+Driver/guide requirements
+Special requests
+Where appropriate, replace generic low prices with:
+
+"Prices are customized according to the itinerary, group size, duration and services included. Contact us for a personalized quote."
+
+Do not remove legitimate prices where they have been intentionally configured by the business owner.
+
+6. HOMEPAGE
+Keep the current visual structure if it is working well.
+
+Improve the homepage hierarchy so that visitors immediately understand:
+
+WHAT WE OFFER
+Private Tangier Tours
+
+Explore Tangier with a licensed local guide through a personalized private experience.
+
+Tangier Shore Excursions
+
+Professional cruise-port pickup and guaranteed timely return to your ship, subject to the agreed itinerary and port schedule.
+
+Jewish Heritage Tours
+
+Explore Tangier's Jewish history, Mellah, synagogues, historic sites and Sephardic heritage with knowledgeable local guidance.
+
+Chefchaouen Day Trips
+
+Private journeys from Tangier to Morocco's famous Blue City.
+
+Morocco Private Transfers
+
+Comfortable private transportation between Tangier, Casablanca, Rabat, airports, ports, hotels and other destinations.
+
+PRIMARY CALL TO ACTION
+Use:
+
+Request Your Private Tour
+
+Secondary CTA:
+
+WhatsApp Us
+
+Avoid having too many competing buttons.
+
+7. IMPORTANT TRUST SECTION
+Create or improve a section explaining why travelers choose this service.
+
+Suggested structure:
+
+Why Travel With Us?
+Licensed Local Expertise
+Travel with a professionally licensed Moroccan tourist guide with deep knowledge of Tangier and northern Morocco.
+
+Private & Personalized
+Your itinerary is adapted to your interests, schedule, mobility and group size.
+
+Professional Transportation
+Private chauffeur-driven transportation is available for customized tours and excursions.
+
+Cruise-Safe Planning
+Shore excursions are planned around your ship's arrival and departure schedule.
+
+Multilingual Service
+Tours can be arranged in English, French, Spanish, Arabic and Hebrew, subject to guide availability.
+
+Local Knowledge
+Discover Tangier beyond the standard tourist route through authentic stories, history, culture and local perspectives.
+
+Do not add claims that cannot be verified.
+
+8. CRUISE PASSENGER EXPERIENCE
+This is one of the most important business segments.
+
+Create a strong dedicated section for:
+
+Tangier Shore Excursions
+Explain clearly:
+
+Cruise-port pickup
+Professional guide
+Private vehicle
+Flexible itinerary
+Return to the port
+Time-conscious planning
+Customized excursions
+Options for couples, families and groups
+Include a clear CTA:
+
+Plan My Shore Excursion
+
+The page should reassure cruise passengers that their schedule is understood and respected.
+
+Do not promise absolute guarantees unless legally and operationally appropriate.
+
+Use careful wording such as:
+
+"Your itinerary is planned around your ship's scheduled departure time, with sufficient time allocated for your return to the port."
+
+9. JEWISH HERITAGE SECTION
+This is a major specialty and should receive stronger SEO and visual prominence.
+
+Create a premium dedicated page:
+
+Tangier Jewish Heritage Tours
+
+Possible subjects include:
+
+Historic Jewish Quarter / Mellah
+Historic synagogues
+Jewish cemetery
+Sephardic heritage
+Jewish families and communities of Tangier
+Historic institutions
+Jewish migration and international Tangier
+Moroccan Jewish traditions
+Personal genealogy research, where offered
+Do not exaggerate historical claims.
+
+Use respectful, historically accurate language.
+
+Target visitors interested in:
+
+Family history
+Genealogy
+Sephardic heritage
+Jewish Moroccan history
+Synagogue visits
+Jewish travelers
+Academic/research interests
+CTA:
+
+Plan Your Jewish Heritage Tour
+
+10. TOUR PAGES
+Every important tour should have its own SEO-friendly page.
+
+Priority pages:
+
+Tangier Private Tours
+Tangier Shore Excursions
+Tangier Jewish Heritage Tours
+Chefchaouen Day Trips from Tangier
+Casablanca Private Tours
+Morocco Private Transfers
+Luxury Morocco Tours
+Tangier Camel Ride Experience
+Tangier Tours from Tarifa
+Morocco Day Trips
+Each tour page should include:
+
+Clear H1
+Short introduction
+Who the tour is ideal for
+Main highlights
+Suggested itinerary
+Duration
+Pickup information
+What's included
+What's not included
+Customization options
+FAQ
+Strong CTA
+WhatsApp button
+Related tours
+Relevant internal links
+11. SEO
+Perform a complete technical and on-page SEO audit.
+
+For every important page create:
+
+Unique SEO title
+Unique meta description
+One clear H1
+Proper H2/H3 hierarchy
+SEO-friendly URL
+Image alt text
+Internal links
+Breadcrumbs where appropriate
+Canonical URL
+Open Graph metadata
+Social sharing metadata
+Do NOT keyword-stuff.
+
+Write primarily for humans.
+
+Target natural search phrases such as:
+
+Tangier private tours
+Tangier private tour
+Tangier shore excursions
+Tangier cruise excursions
+Tangier Jewish heritage tour
+Jewish heritage Tangier
+Tangier tours from cruise port
+Chefchaouen day trip from Tangier
+Tangier tours from Tarifa
+private Morocco tours
+Morocco private transfers
+Use variations naturally.
+
+12. STRUCTURED DATA / SCHEMA
+Implement appropriate Schema.org structured data where technically appropriate.
+
+Consider:
+
+LocalBusiness
+TouristGuide
+TouristTrip
+Service
+FAQPage
+BreadcrumbList
+Review/AggregateRating ONLY when genuine and eligible
+Organization
+WebSite
+Do NOT create fake ratings or fake reviews in structured data.
+
+Make sure structured data accurately reflects visible content.
+
+13. GOOGLE / LOCAL SEO
+Optimize the website for local searches around:
+
+Tangier, Morocco
+
+and relevant surrounding destinations.
+
+Make sure the website consistently communicates:
+
+Tangier
+Morocco
+Licensed local guide
+Private tours
+Shore excursions
+Jewish heritage
+Chefchaouen
+Casablanca
+Morocco transfers
+Create strong local relevance without keyword stuffing.
+
+14. BOOKING FORM
+Improve the existing inquiry form.
+
+Recommended fields:
+
+Name
+
+Email
+
+WhatsApp / Phone
+
+Travel Date
+
+Number of Travelers
+
+Tour / Service
+
+Pickup Location
+
+Cruise Ship / Hotel
+
+Arrival Time
+
+Departure / All-Aboard Time
+
+Preferred Language
+
+Special Requirements
+
+Message
+
+CTA:
+
+Request My Private Tour
+
+Make the form mobile-friendly and easy to complete.
+
+15. WHATSAPP
+Keep WhatsApp highly visible but not intrusive.
+
+Use a floating WhatsApp button on mobile and desktop.
+
+Suggested CTA:
+
+Chat with us on WhatsApp
+
+Do not use misleading automatic messages.
+
+16. MOBILE EXPERIENCE
+Perform a complete mobile UX audit.
+
+Check:
+
+Font sizes
+Button sizes
+Navigation
+Image loading
+Page speed
+Horizontal overflow
+Form usability
+WhatsApp placement
+CTA visibility
+Tour cards
+Tables
+Testimonials
+Footer
+The mobile version should feel like a premium travel website, not a compressed desktop website.
+
+17. IMAGES
+Use high-quality authentic travel imagery wherever possible.
+
+Prioritize:
+
+Tangier
+Kasbah
+Medina
+Cap Spartel
+Hercules Caves
+Atlantic coast
+Chefchaouen
+Jewish heritage locations
+Morocco landscapes
+Private transportation
+Genuine guest experiences
+Do not use obviously artificial or generic images when an authentic local image is available.
+
+Optimize images for web performance.
+
+Use descriptive alt text.
+
+18. ABOUT THE GUIDE
+The About page should feel personal and authentic.
+
+Do not make it sound like a corporate travel agency.
+
+Emphasize:
+
+Licensed local guide
+Knowledge of Tangier
+Professional experience
+Languages
+Local connections
+Personalized service
+Passion for history and culture
+Experience with international visitors
+Use first-person language where appropriate.
+
+The visitor should feel:
+
+"I know who will be taking care of my trip."
+
+19. REVIEWS
+Use only genuine reviews.
+
+Do not create fictional testimonials.
+
+Where possible, display:
+
+Guest name
+Date
+Tour type
+Review
+Platform/source
+If reviews come from another platform, make the source clear.
+
+20. FAQ
+Create useful FAQs for real customer questions.
+
+Examples:
+
+How do I meet my guide at the Tangier cruise port?
+
+Can you pick me up from my hotel?
+
+Can I take a private tour from Tarifa?
+
+Can you accommodate children?
+
+Can you accommodate mobility limitations?
+
+Can I customize the itinerary?
+
+Do you offer Jewish heritage tours?
+
+Do you offer Hebrew-speaking guides?
+
+Can you guarantee that I return to my cruise ship on time?
+
+What happens if my cruise schedule changes?
+
+How do I pay?
+
+Only provide answers that accurately reflect the actual business policies.
+
+21. INTERNAL LINKING
+Create logical internal links between pages.
+
+Examples:
+
+Tangier Private Tours → Shore Excursions
+
+Shore Excursions → Tangier Private Tours
+
+Jewish Heritage → About
+
+Chefchaouen → Tangier Tours
+
+Tangier Tours from Tarifa → Private Tours
+
+Morocco Transfers → Casablanca
+
+Blog articles → relevant tour pages
+
+Use descriptive anchor text.
+
+22. BLOG / CONTENT STRATEGY
+Create a strong SEO content structure rather than generic blog posts.
+
+Potential articles:
+
+Best Things to Do in Tangier
+How to Spend One Day in Tangier
+Tangier Cruise Port Guide
+Tangier from Tarifa: Complete Travel Guide
+Best Tangier Shore Excursions
+Jewish Heritage in Tangier
+Jewish History of Tangier
+How to Visit Chefchaouen from Tangier
+Tangier vs Chefchaouen
+Best Time to Visit Tangier
+What to See in Tangier Medina
+Cap Spartel and Hercules Caves Guide
+Every article should link naturally to relevant tours.
+
+23. SPEED & TECHNICAL QUALITY
+Optimize:
+
+Core Web Vitals
+Image compression
+Lazy loading
+JavaScript
+CSS
+Font loading
+Mobile performance
+Page rendering
+Broken links
+404 page
+Sitemap
+Robots.txt
+Canonical URLs
+Do not sacrifice website quality simply to achieve a perfect speed score.
+
+24. SECURITY & FORMS
+Verify:
+
+Contact forms work
+Booking requests are actually delivered
+Spam protection exists
+Email notifications work
+No sensitive information is exposed
+HTTPS is active
+External integrations are secure
+Do not claim that a form works unless it has actually been tested.
+
+25. FOOTER
+Create a professional footer containing:
+
+TangierTours.ma
+
+Private Tours • Shore Excursions • Jewish Heritage • Morocco
+
+Tangier, Morocco
+
+WhatsApp
+
+Email
+
+Tours
+
+About
+
+Reviews
+
+Contact
+
+Privacy Policy
+
+Terms & Conditions
+
+26. FINAL QUALITY CONTROL
+Before making any changes live, perform a full audit.
+
+Create a checklist with:
+
+CONTENT
+Accuracy
+Grammar
+Consistency
+No invented claims
+SEO
+Titles
+Meta descriptions
+H1/H2
+URLs
+Schema
+Internal linking
+UX
+Navigation
+Mobile
+CTAs
+Booking form
+TRUST
+Guide information
+Reviews
+Credentials
+Contact information
+TECHNICAL
+Speed
+Forms
+HTTPS
+Sitemap
+Robots.txt
+Broken links
+CONVERSION
+Request a Quote
+WhatsApp
+Tour pages
+Cruise passenger CTA
+Jewish heritage CTA
+MOST IMPORTANT INSTRUCTION
+Preserve what is already excellent.
+
+Do not redesign the website simply for the sake of redesigning it.
+
+Do not change the brand identity unnecessarily.
+
+Do not remove strong existing sections unless there is a clear business or SEO reason.
+
+Do not fabricate information.
+
+Do not create fake reviews.
+
+Do not invent prices.
+
+Do not create unsupported claims.
+
+Make improvements incrementally and intelligently.
+
+The final result should feel like:
+
+A premium independent Moroccan tour company operated by an experienced local professional — not an AI-generated website.
+
+Before applying major structural changes, first provide a concise list of the proposed changes and identify which pages will be affected.

@@ -40,7 +40,7 @@ const highlights = [
   { icon: "🌊", title: "Cape Spartel & Caves of Hercules", desc: "Africa's northwestern tip — the lighthouse where the Atlantic meets the Mediterranean, and the legendary Caves of Hercules just 14km from the city." },
   { icon: "🍵", title: "Authentic Moroccan Mint Tea", desc: "No visit to Morocco is complete without the ritual of mint tea — poured high from a silver pot into painted glasses. Your guide knows exactly where to find the best." },
   { icon: "🛍️", title: "Medina Souks & Crafts", desc: "Browse the covered souks for hand-woven textiles, leather goods, ceramics, spices, and Moroccan lanterns — with Idrissi to navigate and translate." },
-  { icon: "🎯", title: "Guaranteed Return to Gibraltar", desc: "We track your ferry schedule and guarantee you are back at the Tangier port in time for your return crossing — every time, without exception." },
+  { icon: "🎯", title: "Ferry-Conscious Planning", desc: "Your Tangier itinerary is designed around your return ferry time — with sufficient time built in for your journey back to the port." },
 ];
 const itinerary = [
   { time: "08:30", stop: "Meet at Gibraltar ferry terminal", desc: "Idrissi's Tangier contact or Idrissi himself meets you at the Tangier Ville port arrival hall — sign with your name." },

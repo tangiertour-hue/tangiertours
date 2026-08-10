@@ -131,8 +131,8 @@ const advantages = [
   },
   {
     icon: <Clock className="w-5 h-5 text-gold" />,
-    title: "On-Time Guarantee",
-    desc: "In 15 years, we have never caused a passenger to miss their ship. Your schedule is our priority.",
+    title: "Cruise-Safe Planning",
+    desc: "Your itinerary is planned around your ship's departure schedule, with sufficient time allocated for your return to port.",
   },
   {
     icon: <Shield className="w-5 h-5 text-gold" />,
@@ -200,14 +200,14 @@ export default function ShoreExcursionsPage() {
             <Breadcrumb items={breadcrumbItems} />
             <div className="max-w-3xl mt-6">
               <div className="inline-flex items-center gap-2 bg-gold/20 border border-gold/40 text-gold text-sm font-semibold px-4 py-1.5 rounded-full mb-5">
-                <Shield className="w-3.5 h-3.5" /> On-Time Guarantee — 15 Years, Zero Missed Ships
+                <Shield className="w-3.5 h-3.5" /> Shore Excursions Planned Around Your Ship&apos;s Schedule
               </div>
               <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Tangier Shore Excursions —{" "}
-                <span className="text-gold">Private Tours from the Cruise Port, Guaranteed On Time</span>
+                <span className="text-gold">Private Tours from the Tangier Cruise Port</span>
               </h1>
               <p className="text-lg text-white/80 leading-relaxed mb-6">
-                Back on board on time — guaranteed. We've never missed a departure in 15 years. Experience the real Tangier with a licensed private guide who knows the port schedule as well as the Medina's hidden alleyways.
+                Your itinerary is planned around your ship&apos;s scheduled departure — with sufficient time allocated for your return to port. A licensed local guide meets you on arrival and takes care of everything.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a

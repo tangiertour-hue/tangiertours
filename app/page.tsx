@@ -14,13 +14,13 @@ import {
 export const metadata: Metadata = {
   title: "TangierTours — Private Tour Guide in Tangier, Morocco | Idrissi",
   description:
-    "Book a private tour in Tangier, Morocco with licensed guide Idrissi. Shore excursions, Jewish heritage tours, Chefchaouen day trips, luxury Morocco experiences. 4.9★ rated.",
+    "Private tours in Tangier, Morocco with licensed guide Abdelhamid Idrissi. Shore excursions, Jewish heritage tours, Chefchaouen day trips & private transfers. Request your itinerary today.",
   keywords:
     "Tangier private tour, Tangier tour guide, private tours Morocco, shore excursion Tangier, Jewish heritage Morocco, luxury Morocco tours",
   openGraph: {
     title: "TangierTours — Private Tour Guide in Tangier, Morocco",
     description:
-      "Experience Morocco's magic with licensed guide Idrissi. Tailored private tours, Jewish heritage experiences, shore excursions & luxury itineraries.",
+      "Private tours in Tangier and Morocco with licensed local guide Abdelhamid Idrissi. Personalized itineraries, shore excursions, Jewish heritage, Chefchaouen & private transfers.",
     type: "website",
     locale: "en_US",
   },
@@ -37,7 +37,7 @@ const localBusinessSchema = {
   email: "tangiertour@gmail.com",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Tangier Medina",
+    streetAddress: "36 Ave Mly Ali Cherif",
     addressLocality: "Tangier",
     postalCode: "90000",
     addressCountry: "MA",
@@ -49,16 +49,7 @@ const localBusinessSchema = {
   },
   openingHours: "Mo-Su 07:00-21:00",
   priceRange: "$$",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "87",
-    bestRating: "5",
-  },
-  sameAs: [
-    "https://www.tripadvisor.com",
-    "https://www.google.com/maps",
-  ],
+  sameAs: [],
 };
 
 const faqSchema = {
@@ -70,7 +61,7 @@ const faqSchema = {
       name: "How much does a private tour in Tangier cost?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A private half-day tour in Tangier (4 hours) starts from $80 per group. Full-day tours (8 hours) start from $150. Prices vary based on group size, tour type, and inclusions. Contact us for a personalised quote.",
+        text: "Tour prices are customised according to the itinerary, group size, duration and services included. Please contact us for a personalised quote.",
       },
     },
     {
@@ -78,7 +69,7 @@ const faqSchema = {
       name: "Is Tangier safe for tourists?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Tangier is generally safe for tourists, especially with a licensed guide. Idrissi has been guiding visitors safely for over 15 years. Having a professional guide eliminates stress and ensures you experience the best of the city.",
+        text: "Tangier is a welcoming city with a well-established tourism infrastructure. Travelling with a licensed local guide provides orientation, cultural context, and a more relaxed experience for first-time visitors.",
       },
     },
     {
@@ -94,7 +85,7 @@ const faqSchema = {
       name: "Can I book a tour from my cruise ship in Tangier?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Absolutely. We specialise in Tangier shore excursions for cruise passengers. We meet you at the port, show you the best of Tangier, and guarantee you're back on board on time.",
+        text: "Yes. Shore excursions are designed around your ship's scheduled departure. We meet you at the port and plan your itinerary with sufficient time for your return — always keeping your all-aboard time at the centre of the plan.",
       },
     },
     {
@@ -120,7 +111,7 @@ const tours = [
     title: "Shore Excursions",
     href: "/tours/tangier-shore-excursions",
     icon: "⚓",
-    desc: "Arriving by cruise ship? We meet you at Tangier port and guarantee you return on time — every time.",
+    desc: "Arriving by cruise ship? We meet you at Tangier port and plan your excursion around your ship's departure schedule.",
     tag: "Cruise Passengers",
   },
   {
@@ -153,29 +144,8 @@ const tours = [
   },
 ];
 
-const reviews = [
-  {
-    name: "Sarah M.",
-    country: "United States",
-    rating: 5,
-    tour: "Tangier Private Tour",
-    text: "Idrissi is without question the best tour guide we've ever had — anywhere in the world. His knowledge of Tangier's history, his warmth, and his ability to show us hidden corners of the Medina made this the highlight of our entire Morocco trip.",
-  },
-  {
-    name: "David & Rachel L.",
-    country: "Israel",
-    rating: 5,
-    tour: "Jewish Heritage Tour",
-    text: "We were deeply moved by the Jewish heritage tour. Idrissi's depth of knowledge about Moroccan Jewish history and the Tangier Mellah was extraordinary. He speaks Hebrew beautifully and made us feel completely at home. Highly recommend.",
-  },
-  {
-    name: "James P.",
-    country: "United Kingdom",
-    rating: 5,
-    tour: "Shore Excursion",
-    text: "We were on a cruise and only had 6 hours in Tangier. Idrissi made every minute count. We saw the Kasbah, the Medina, the Grand Socco, enjoyed mint tea, and were back at the port with 30 minutes to spare. Flawless.",
-  },
-];
+// Reviews — replace with your genuine customer reviews from Google / TripAdvisor
+const reviews: { name: string; country: string; rating: number; tour: string; text: string }[] = [];
 
 export default function HomePage() {
   return (
@@ -211,45 +181,44 @@ export default function HomePage() {
               Licensed & Certified Tour Guide — Morocco Ministry of Tourism
             </div>
             <h1 className="font-display text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6">
-              Your Expert Private Guide
-              <br />
-              <span className="text-gold">in Tangier & Morocco</span>
-            </h1>
-            <p className="text-lg sm:text-xl text-white/80 max-w-3xl mx-auto mb-10 leading-relaxed">
-              Experience the real Morocco — its ancient Medinas, rich Jewish heritage, Blue Mountains, and desert landscapes — with Idrissi, a certified local guide trusted by 500+ travellers from around the world.
-            </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-              <Link
-                href="/contact"
-                className="bg-gold text-navy font-bold px-8 py-4 rounded text-lg hover:bg-gold-light transition-colors w-full sm:w-auto text-center"
-              >
-                Book Your Tour
-              </Link>
-              <a
-                href="https://wa.me/212668702424"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center justify-center gap-2 bg-[#25D366] text-white font-bold px-8 py-4 rounded text-lg hover:bg-[#20BA5A] transition-colors w-full sm:w-auto"
-              >
-                <Phone className="w-5 h-5" /> WhatsApp Now
-              </a>
-            </div>
+               Private Journeys.
+               <br />
+               <span className="text-gold">Timeless Morocco.</span>
+             </h1>
+             <p className="text-lg sm:text-xl text-white/80 max-w-3xl mx-auto mb-10 leading-relaxed">
+               Private Morocco experiences led by a licensed local guide — with personalized itineraries, professional service, and genuine knowledge of Tangier and northern Morocco.
+             </p>
+             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
+               <Link
+                 href="/contact"
+                 className="bg-gold text-navy font-bold px-8 py-4 rounded text-lg hover:bg-gold-light transition-colors w-full sm:w-auto text-center"
+               >
+                 Request Your Private Tour
+               </Link>
+               <a
+                 href="https://wa.me/212668702424"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="flex items-center justify-center gap-2 bg-[#25D366] text-white font-bold px-8 py-4 rounded text-lg hover:bg-[#20BA5A] transition-colors w-full sm:w-auto"
+               >
+                 <Phone className="w-5 h-5" /> WhatsApp Us
+               </a>
+             </div>
 
-            {/* Trust bar */}
-            <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-white/70">
-              {[
-                { icon: <Star className="w-4 h-4 text-gold" />, text: "4.9★ (87 reviews)" },
-                { icon: <Shield className="w-4 h-4 text-gold" />, text: "Licensed Guide" },
-                { icon: <Users className="w-4 h-4 text-gold" />, text: "500+ Tours Led" },
-                { icon: <Award className="w-4 h-4 text-gold" />, text: "15+ Years Experience" },
-                { icon: <MapPin className="w-4 h-4 text-gold" />, text: "4 Languages" },
-              ].map((t, i) => (
-                <div key={i} className="flex items-center gap-1.5">
-                  {t.icon}
-                  <span>{t.text}</span>
-                </div>
-              ))}
-            </div>
+             {/* Trust bar */}
+             <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-white/70">
+               {[
+                 { icon: <Shield className="w-4 h-4 text-gold" />, text: "Licensed by Morocco Ministry of Tourism" },
+                 { icon: <Users className="w-4 h-4 text-gold" />, text: "Private & Personalised" },
+                 { icon: <MapPin className="w-4 h-4 text-gold" />, text: "English · French · Spanish · Arabic" },
+                 { icon: <Award className="w-4 h-4 text-gold" />, text: "Based in Tangier" },
+               ].map((t, i) => (
+                 <div key={i} className="flex items-center gap-1.5">
+                   {t.icon}
+                   <span>{t.text}</span>
+                 </div>
+               ))}
+             </div>
           </div>
           <a href="#tours" className="absolute bottom-8 left-1/2 -translate-x-1/2 z-[2] text-white/50 hover:text-gold transition-colors animate-bounce">
             <ChevronDown className="w-6 h-6" />
@@ -379,18 +348,15 @@ export default function HomePage() {
                   <div className="w-32 h-32 rounded-full bg-navy/10 flex items-center justify-center mx-auto mb-6 border-4 border-gold">
                     <span className="text-5xl">👨‍💼</span>
                   </div>
-                  <div className="font-display text-2xl font-bold text-navy mb-1">Idrissi</div>
+                  <div className="font-display text-2xl font-bold text-navy mb-1">Abdelhamid Idrissi</div>
                   <div className="text-gold font-semibold text-sm mb-4">Licensed Tour Guide · Tangier, Morocco</div>
-                  <div className="grid grid-cols-3 gap-4 text-center border-t border-border-warm pt-4">
+                  <div className="border-t border-border-warm pt-4 space-y-2">
                     {[
-                      { val: "15+", label: "Years Experience" },
-                      { val: "500+", label: "Tours Led" },
-                      { val: "4.9★", label: "Average Rating" },
-                    ].map((s) => (
-                      <div key={s.label}>
-                        <div className="font-display text-2xl font-bold text-navy">{s.val}</div>
-                        <div className="text-xs text-muted-text">{s.label}</div>
-                      </div>
+                      "Licensed by Morocco Ministry of Tourism",
+                      "Private & personalised tours",
+                      "English · French · Spanish · Arabic",
+                    ].map((item) => (
+                      <div key={item} className="text-xs text-muted-text">{item}</div>
                     ))}
                   </div>
                 </div>
@@ -407,40 +373,43 @@ export default function HomePage() {
               <h2 className="font-display text-3xl sm:text-4xl font-bold text-navy mt-2 mb-4 gold-divider">
                 What Travellers Say
               </h2>
-              <div className="flex items-center justify-center gap-2 mt-6">
-                <div className="flex">
-                  {[1, 2, 3, 4, 5].map((i) => (
-                    <Star key={i} className="w-5 h-5 text-gold fill-gold" />
-                  ))}
-                </div>
-                <span className="text-navy font-bold text-lg">4.9 / 5</span>
-                <span className="text-muted-text">based on 87 reviews</span>
+              <p className="text-muted-text mt-6 max-w-xl mx-auto text-sm">
+                Genuine reviews from travellers who have experienced TangierTours firsthand. Read more on Google and TripAdvisor.
+              </p>
+            </div>
+            {reviews.length === 0 ? (
+              <div className="text-center py-10 bg-white border border-border-warm rounded p-8 max-w-xl mx-auto">
+                <p className="text-muted-text text-sm leading-relaxed">
+                  Reviews coming soon — we display only genuine testimonials from verified travellers. Check our{" "}
+                  <Link href="/reviews" className="text-gold hover:underline">reviews page</Link> for the latest feedback.
+                </p>
               </div>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {reviews.map((r, i) => (
-                <div key={i} className="bg-white border border-border-warm rounded p-6 flex flex-col">
-                  <div className="flex mb-3">
-                    {[1, 2, 3, 4, 5].map((s) => (
-                      <Star key={s} className="w-4 h-4 text-gold fill-gold" />
-                    ))}
+            ) : (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {reviews.map((r, i) => (
+                  <div key={i} className="bg-white border border-border-warm rounded p-6 flex flex-col">
+                    <div className="flex mb-3">
+                      {[1, 2, 3, 4, 5].map((s) => (
+                        <Star key={s} className="w-4 h-4 text-gold fill-gold" />
+                      ))}
+                    </div>
+                    <blockquote className="text-charcoal text-sm leading-relaxed flex-1 italic mb-4">
+                      &ldquo;{r.text}&rdquo;
+                    </blockquote>
+                    <div className="border-t border-border-warm pt-4">
+                      <div className="font-semibold text-navy">{r.name}</div>
+                      <div className="text-xs text-muted-text">{r.country} · {r.tour}</div>
+                    </div>
                   </div>
-                  <blockquote className="text-charcoal text-sm leading-relaxed flex-1 italic mb-4">
-                    &ldquo;{r.text}&rdquo;
-                  </blockquote>
-                  <div className="border-t border-border-warm pt-4">
-                    <div className="font-semibold text-navy">{r.name}</div>
-                    <div className="text-xs text-muted-text">{r.country} · {r.tour}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            )}
             <div className="text-center mt-10">
               <Link
                 href="/reviews"
                 className="inline-flex items-center gap-2 border-2 border-navy text-navy font-semibold px-8 py-3 rounded hover:bg-navy hover:text-white transition-colors"
               >
-                Read All Reviews <ArrowRight className="w-4 h-4" />
+                Read Reviews <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </div>

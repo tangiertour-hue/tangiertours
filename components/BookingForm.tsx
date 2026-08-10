@@ -33,6 +33,10 @@ export default function BookingForm({
     date: "",
     groupSize: "",
     cruiseShip: "",
+    pickupLocation: "",
+    arrivalTime: "",
+    allAboardTime: "",
+    language: "",
     message: "",
   });
 
@@ -66,7 +70,7 @@ export default function BookingForm({
   return (
     <div className="bg-white border border-border-warm rounded shadow-sm">
       <div className="bg-navy px-6 py-4 rounded-t">
-        <h3 className="font-display text-xl font-bold text-white">Request Your Tour</h3>
+        <h3 className="font-display text-xl font-bold text-white">Request Your Private Tour</h3>
         <p className="text-white/65 text-sm mt-1">We reply within 2 hours · No payment required to enquire</p>
       </div>
       <form onSubmit={handleSubmit} className="p-6 space-y-4">
@@ -190,9 +194,76 @@ export default function BookingForm({
           )}
         </div>
 
+        {/* Pickup location */}
+        <div>
+          <label className="block text-sm font-semibold text-charcoal mb-1" htmlFor="pickupLocation">
+            Pickup Location
+          </label>
+          <input
+            id="pickupLocation"
+            name="pickupLocation"
+            type="text"
+            value={form.pickupLocation}
+            onChange={handleChange}
+            placeholder="Hotel name, cruise port, ferry terminal…"
+            className="w-full border border-border-warm rounded px-3 py-2.5 text-sm focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold/30 transition"
+          />
+        </div>
+
+        {/* Cruise / ship times */}
+        {showCruiseField && (
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label className="block text-sm font-semibold text-charcoal mb-1" htmlFor="arrivalTime">
+                Ship Arrival Time
+              </label>
+              <input
+                id="arrivalTime"
+                name="arrivalTime"
+                type="time"
+                value={form.arrivalTime}
+                onChange={handleChange}
+                className="w-full border border-border-warm rounded px-3 py-2.5 text-sm focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold/30 transition"
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-semibold text-charcoal mb-1" htmlFor="allAboardTime">
+                All-Aboard Time *
+              </label>
+              <input
+                id="allAboardTime"
+                name="allAboardTime"
+                type="time"
+                value={form.allAboardTime}
+                onChange={handleChange}
+                className="w-full border border-border-warm rounded px-3 py-2.5 text-sm focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold/30 transition"
+              />
+            </div>
+          </div>
+        )}
+
+        {/* Preferred language */}
+        <div>
+          <label className="block text-sm font-semibold text-charcoal mb-1" htmlFor="language">
+            Preferred Tour Language
+          </label>
+          <select
+            id="language"
+            name="language"
+            value={form.language}
+            onChange={handleChange}
+            className="w-full border border-border-warm rounded px-3 py-2.5 text-sm focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold/30 transition bg-white"
+          >
+            <option value="">Select language…</option>
+            {["English", "French", "Spanish", "Arabic"].map((l) => (
+              <option key={l} value={l}>{l}</option>
+            ))}
+          </select>
+        </div>
+
         <div>
           <label className="block text-sm font-semibold text-charcoal mb-1" htmlFor="message">
-            Special Requests or Questions
+            Special Requirements or Questions
           </label>
           <textarea
             id="message"
@@ -200,7 +271,7 @@ export default function BookingForm({
             rows={3}
             value={form.message}
             onChange={handleChange}
-            placeholder="Tell us about your interests, mobility requirements, dietary needs, etc."
+            placeholder="Interests, mobility requirements, children, dietary needs, customisation requests…"
             className="w-full border border-border-warm rounded px-3 py-2.5 text-sm focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold/30 transition resize-none"
           />
         </div>
@@ -215,7 +286,7 @@ export default function BookingForm({
           ) : (
             <Send className="w-4 h-4" />
           )}
-          {loading ? "Sending..." : "Send Booking Request"}
+          {loading ? "Sending..." : "Request My Private Tour"}
         </button>
 
         <p className="text-xs text-muted-text text-center">
