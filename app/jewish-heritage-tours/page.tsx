@@ -11,7 +11,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Jewish Heritage Tours in Morocco — Tangier & Casablanca | TangierTours",
   description:
-    "Discover Jewish heritage Morocco on a private guided tour. Explore Morocco Jewish history across 2,000 years — Mellah quarters, synagogues, cemeteries. Jewish tour Morocco with a Hebrew-speaking guide.",
+    "Discover Jewish heritage Morocco on a private guided tour. Explore Morocco Jewish history across 2,000 years — Mellah quarters, synagogues, cemeteries and the Museum of Moroccan Judaism.",
 };
 
 const jsonLd = {

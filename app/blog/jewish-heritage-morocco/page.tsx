@@ -211,7 +211,7 @@ function IntroSection() {
         For travellers with Moroccan Jewish roots, this is a journey home. For those without, it is one of the most surprising and moving chapters in world history — a story of coexistence, culture, and continuity that challenges every assumption about the Middle East and North Africa.
       </p>
       <p className="text-muted-text leading-relaxed">
-        This guide covers the essential Jewish heritage sites in the four major cities: Tangier, Casablanca, Fez, and Marrakech. I have written it as someone who has guided hundreds of Jewish families through these places, who speaks Hebrew, and who has spent fifteen years studying the history they embody. I hope it is useful — and I hope it inspires you to visit.
+        This guide covers the essential Jewish heritage sites in the four major cities: Tangier, Casablanca, Fez, and Marrakech. I have written it as someone who has guided many Jewish families through these places, and who has spent years studying the history they embody. I hope it is useful — and I hope it inspires you to visit.
       </p>
       <p className="text-sm text-muted-text mt-4 italic border-l-4 border-gold pl-4">
         — Idrissi, Licensed Tour Guide, TangierTours

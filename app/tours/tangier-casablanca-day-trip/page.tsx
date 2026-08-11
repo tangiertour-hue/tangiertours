@@ -37,7 +37,7 @@ const breadcrumb = [{ label: "Tours", href: "/tours" }, { label: "Tangier–Casa
 const highlights = [
   { icon: "🚄", title: "Al Boraq — Africa's First High Speed Train", desc: "Travel at 320 km/h aboard Morocco's flagship train. Modern, comfortable, air-conditioned, and scenically spectacular — the Atlantic coast flashes past your window." },
   { icon: "🕌", title: "Hassan II Mosque", desc: "One of the world's largest mosques, built on the Atlantic Ocean. Its 210-metre minaret is the tallest in the world — open to non-Muslim visitors on guided tours." },
-  { icon: "✡️", title: "Jewish Heritage of Casablanca", desc: "The Museum of Moroccan Judaism, Beth El Synagogue, and the Habous Quarter — a moving and extraordinary chapter of Moroccan history, guided by Hebrew-speaking Idrissi." },
+  { icon: "✡️", title: "Jewish Heritage of Casablanca", desc: "The Museum of Moroccan Judaism, Beth El Synagogue, and the Habous Quarter — a moving and extraordinary chapter of Moroccan history, guided by specialist guide Idrissi." },
   { icon: "🏛️", title: "Art Deco Casablanca", desc: "Casablanca is one of the world's great Art Deco cities — over 300 protected buildings from the 1920s–40s French Protectorate era line its elegant boulevards." },
   { icon: "🔵", title: "Tangier Medina & Kasbah", desc: "For visitors arriving from Casablanca: a full private walking tour of Tangier's Medina, Kasbah, Grand Socco, and panoramic Cape Spartel viewpoint." },
   { icon: "🍽️", title: "Local Lunch Included", desc: "A sit-down lunch at a carefully chosen local restaurant — Moroccan cuisine at its finest, away from tourist traps, chosen by your guide Idrissi." },
