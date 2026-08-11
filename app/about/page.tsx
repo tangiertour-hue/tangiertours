@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -115,24 +116,46 @@ export default function AboutPage() {
         </section>
 
         {/* Professional Bio */}
-        <section className="max-w-3xl mx-auto px-4 py-16">
-          <h2 className="font-display text-2xl text-navy mb-6 gold-divider-left">Your Guide</h2>
-          <div className="space-y-5 text-gray-700 leading-relaxed">
-            <p>
-              With over 15 years of experience guiding visitors through Morocco&apos;s most captivating cities, landscapes and cultural heritage, Idrissi brings extensive professional expertise, genuine warmth, and an insider&apos;s knowledge that can transform a sightseeing trip into a truly memorable experience.
-            </p>
-            <p>
-              A licensed professional guide recognized by the Moroccan Ministry of Tourism, Idrissi has also served as <strong className="text-navy">Former President of the Tangier Tour Guides Association</strong>, reflecting his experience and standing within Morocco&apos;s professional tourism community.
-            </p>
-            <p>
-              Fluent in English, French, Spanish and Arabic, Idrissi is well placed to welcome travellers from around the world and provide personalized experiences tailored to their interests.
-            </p>
-            <p>
-              His expertise also includes Jewish heritage tours, helping families and travellers explore Morocco&apos;s rich Jewish history, cultural heritage, historic communities and ancestral connections.
-            </p>
-            <p>
-              Whether discovering Tangier for the first time, exploring Morocco&apos;s cultural treasures, or tracing family roots, guests can expect professional guidance, personal attention, authentic local insight, and a warm Moroccan welcome.
-            </p>
+        <section className="max-w-5xl mx-auto px-4 py-16">
+          <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr] gap-10 items-start">
+            {/* Photo */}
+            <div className="flex flex-col items-center lg:items-start">
+              <div className="relative w-56 h-64 lg:w-full lg:h-80 rounded-lg overflow-hidden border-4 border-gold shadow-lg">
+                <Image
+                  src="/idrissi-photo.jpg"
+                  alt="Abdelhamid Idrissi — Licensed Professional Tour Guide in Tangier, Morocco"
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width:1024px) 224px, 280px"
+                  priority
+                />
+              </div>
+              <div className="mt-4 text-center lg:text-left">
+                <div className="font-display text-lg font-bold text-navy">Abdelhamid Idrissi</div>
+                <div className="text-gold text-sm font-semibold">Licensed Tour Guide · Tangier</div>
+              </div>
+            </div>
+            {/* Bio */}
+            <div>
+              <h2 className="font-display text-2xl text-navy mb-6 gold-divider-left">Your Guide</h2>
+              <div className="space-y-5 text-gray-700 leading-relaxed mt-6">
+                <p>
+                  With over 15 years of experience guiding visitors through Morocco&apos;s most captivating cities, landscapes and cultural heritage, Idrissi brings extensive professional expertise, genuine warmth, and an insider&apos;s knowledge that can transform a sightseeing trip into a truly memorable experience.
+                </p>
+                <p>
+                  A licensed professional guide recognized by the Moroccan Ministry of Tourism, Idrissi has also served as <strong className="text-navy">Former President of the Tangier Tour Guides Association</strong>, reflecting his experience and standing within Morocco&apos;s professional tourism community.
+                </p>
+                <p>
+                  Fluent in English, French, Spanish and Arabic, Idrissi is well placed to welcome travellers from around the world and provide personalized experiences tailored to their interests.
+                </p>
+                <p>
+                  His expertise also includes Jewish heritage tours, helping families and travellers explore Morocco&apos;s rich Jewish history, cultural heritage, historic communities and ancestral connections.
+                </p>
+                <p>
+                  Whether discovering Tangier for the first time, exploring Morocco&apos;s cultural treasures, or tracing family roots, guests can expect professional guidance, personal attention, authentic local insight, and a warm Moroccan welcome.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
