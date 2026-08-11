@@ -25,7 +25,6 @@ const personSchema = {
     { "@type": "EducationalOccupationalCredential", credentialCategory: "licence", name: "Moroccan Ministry of Tourism Official Guide Licence" },
     { "@type": "EducationalOccupationalCredential", credentialCategory: "role", name: "Former President, Tangier Tour Guides Association" },
   ],
-  alumniOf: { "@type": "CollegeOrUniversity", name: "Université Abdelmalek Essaadi, Tangier" },
   description: "Licensed Professional Guide recognized by the Moroccan Ministry of Tourism and Former President of the Tangier Tour Guides Association. Over 15 years of experience guiding visitors through Morocco's cities, landscapes and cultural heritage.",
 };
 
@@ -84,7 +83,7 @@ const credentials = [
 ];
 
 const faqs = [
-  { q: "Is Idrissi a certified guide?", a: "Yes. Idrissi holds an official guide licence from the Moroccan Ministry of Tourism, first granted in 2008 and continuously renewed. He is also a member of the Fédération Nationale des Guides Touristiques du Maroc." },
+  { q: "Is Idrissi a certified guide?", a: "Yes. Idrissi holds an official guide licence from the Moroccan Ministry of Tourism and has served as Former President of the Tangier Tour Guides Association." },
   { q: "What languages does Idrissi speak?", a: "Idrissi speaks Arabic, English, French and Spanish — making TangierTours accessible to travellers from around the world." },
   { q: "How do I contact Idrissi?", a: "The fastest way is via WhatsApp — click the button on any page. You can also use the booking form or email via the contact page. Idrissi typically responds within a few hours." },
 ];

@@ -180,14 +180,14 @@ export default function HomePage() {
               <Award className="w-3.5 h-3.5" />
               Licensed & Certified Tour Guide — Morocco Ministry of Tourism
             </div>
-            <h1 className="font-display text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6">
-               Private Journeys.
-               <br />
-               <span className="text-gold">Timeless Morocco.</span>
-             </h1>
-             <p className="text-lg sm:text-xl text-white/80 max-w-3xl mx-auto mb-10 leading-relaxed">
-               Private Morocco experiences led by a licensed local guide — with personalized itineraries, professional service, and genuine knowledge of Tangier and northern Morocco.
-             </p>
+             <h1 className="font-display text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6">
+                Private Tours in Tangier
+                <br />
+                <span className="text-gold">with a Licensed Local Guide</span>
+              </h1>
+              <p className="text-lg sm:text-xl text-white/80 max-w-3xl mx-auto mb-10 leading-relaxed">
+                Private, personalised tours in Tangier and Morocco led by Abdelhamid Idrissi — a licensed professional guide with over 15 years of local experience.
+              </p>
              <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
                <Link
                  href="/contact"

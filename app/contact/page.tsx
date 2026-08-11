@@ -39,11 +39,6 @@ const localBusinessSchema = {
     closes: "21:00",
   },
   priceRange: "$$",
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "87",
-  },
 };
 
 const contactCards = [
