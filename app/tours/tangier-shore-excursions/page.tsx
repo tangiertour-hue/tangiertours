@@ -9,19 +9,19 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { Clock, MapPin, Star, CheckCircle, ArrowRight, Users, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Tangier Shore Excursions — Private Cruise Port Tours | TangierTours",
+  title: "Shore Excursions Morocco — Private Tours, Transfers & Cruise Port Services | TangierTours",
   description:
-    "Private Tangier shore excursion from the cruise port. Expert guide, on-time guarantee. Book your Tangier cruise port tour for MSC, Costa, Royal Caribbean & more.",
+    "Private shore excursions, transfers and tours in Morocco since 1998. Tangier, Casablanca, Ceuta and Agadir. Professional multilingual driver-guides, Mercedes-Benz vehicles, personalized service.",
   keywords:
-    "Tangier shore excursion, Tangier cruise port tour, Tangier from cruise ship, cruise Tangier private tour, Tangier port excursion",
+    "Tangier shore excursion, Morocco shore excursion, Tangier cruise port tour, Casablanca shore excursion, private Morocco tour cruise, Ceuta Agadir shore excursion",
 };
 
 const tourSchema = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
-  name: "Tangier Shore Excursion — Private Cruise Port Tour",
+  name: "Shore Excursions Morocco — Private Tours, Transfers & Cruise Port Services",
   description:
-    "Private guided shore excursion from Tangier Medina Port. Three durations: 3-hour Express, 5-hour Classic, 7-hour Grand Tour. On-time guarantee for all cruise passengers.",
+    "Private shore excursions, tours and transfers in Morocco since 1998. Operating in Tangier, Casablanca, Ceuta and Agadir with professional multilingual driver-guides and modern vehicles.",
   touristType: "cruise passengers",
   provider: {
     "@type": "LocalBusiness",
@@ -138,26 +138,8 @@ const advantages = [
 
 const cruiseLines = ["MSC Cruises", "Costa Cruises", "Royal Caribbean", "Norwegian Cruise Line", "P&O Cruises", "Celebrity Cruises", "Cunard"];
 
-const testimonials = [
-  {
-    name: "Helen & Frank D.",
-    country: "Australia",
-    ship: "MSC Grandiosa",
-    text: "We were terrified of missing the ship, but Idrissi was tracking the departure time from the moment we met him at the port. He packed an extraordinary amount into 5 hours and had us back with 45 minutes to spare. Absolutely the right choice over the ship's own tour.",
-  },
-  {
-    name: "Margaret T.",
-    country: "United Kingdom",
-    ship: "P&O Britannia",
-    text: "We'd heard mixed things about Tangier. Idrissi completely transformed our experience. He guided us through the Medina's labyrinthine streets with such grace and knowledge — we never once felt unsafe or pressured. A truly unforgettable few hours.",
-  },
-  {
-    name: "Carlos & Ana R.",
-    country: "Spain",
-    ship: "Costa Diadema",
-    text: "Idrissi speaks perfect Spanish, which made everything so easy. The 7-hour Grand Tour was worth every penny — Cape Spartel and the Caves of Hercules were breathtaking. He knew every spot for the best photos and every stall with the best prices.",
-  },
-];
+// Reviews — add your genuine TripAdvisor/Google reviews here
+const testimonials: { name: string; country: string; ship: string; text: string }[] = [];
 
 const breadcrumbItems = [
   { label: "Tours", href: "/tours" },
@@ -188,11 +170,11 @@ export default function ShoreExcursionsPage() {
                 <Shield className="w-3.5 h-3.5" /> Shore Excursions Planned Around Your Ship&apos;s Schedule
               </div>
               <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
-                Tangier Shore Excursions —{" "}
-                <span className="text-gold">Private Tours from the Tangier Cruise Port</span>
+                Private Shore Excursions<br />
+                <span className="text-gold">Tours &amp; Transfers in Morocco</span>
               </h1>
               <p className="text-lg text-white/80 leading-relaxed mb-6">
-                Your itinerary is planned around your ship&apos;s scheduled departure — with sufficient time allocated for your return to port. A licensed local guide meets you on arrival and takes care of everything.
+                Operating since 1998 — professional, reliable and personalised private tours, transfers and shore excursions in Tangier, Casablanca, Ceuta and Agadir, with experienced multilingual driver-guides and modern vehicles.
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
@@ -236,6 +218,69 @@ export default function ShoreExcursionsPage() {
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ABOUT THE SERVICE */}
+        <section className="py-16 bg-white">
+          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+              <div>
+                <h2 className="font-display text-3xl font-bold text-navy mb-4 gold-divider-left">
+                  Private Tours, Transfers &amp; Shore Excursions in Morocco
+                </h2>
+                <div className="space-y-4 text-muted-text leading-relaxed mt-6">
+                  <p>TangierTours has been operating in the private tours and transfers business since 1998, providing professional, reliable and personalised services with experienced, skilled and multilingual driver-guides.</p>
+                  <p>Enjoy the convenience of having one trusted provider for all your travel needs — private tours, airport and hotel transfers, and shore excursions. We operate in <strong className="text-navy">Tangier, Casablanca, Ceuta</strong> and <strong className="text-navy">Agadir</strong>, providing personalised experiences for individuals, couples, families and private groups.</p>
+                  <p>Instead of sending multiple emails to different providers, let us take care of everything with professional service and personalised attention.</p>
+                </div>
+                <div className="mt-6 bg-gold/10 border border-gold/30 rounded p-4">
+                  <div className="font-semibold text-navy mb-1 text-sm">Fast Response &amp; Confirmation</div>
+                  <p className="text-sm text-muted-text">We aim to answer your questions within one hour and provide prompt confirmation once all details have been agreed.</p>
+                </div>
+              </div>
+              <div className="space-y-3">
+                <h3 className="font-display text-xl font-bold text-navy mb-4">Our Service Includes</h3>
+                {[
+                  "Professional and experienced multilingual driver-guides",
+                  "Comfortable, modern Mercedes-Benz or similar vehicles",
+                  "Reliable transportation and personalised service",
+                  "Immediate vehicle replacement in the unlikely event of a breakdown",
+                  "Flexible and customisable private tours",
+                  "Convenient pickup directly at the cruise ship",
+                  "Vehicle access and parking close to major attractions where permitted",
+                ].map((item) => (
+                  <div key={item} className="flex items-start gap-3 bg-ivory border border-border-warm rounded p-3">
+                    <CheckCircle className="w-4 h-4 text-gold shrink-0 mt-0.5" />
+                    <span className="text-sm text-charcoal">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* WHY PRIVATE */}
+        <section className="py-14 bg-navy text-white">
+          <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 className="font-display text-3xl font-bold mb-4 gold-divider">Why Choose a Private Tour?</h2>
+            <p className="text-white/80 leading-relaxed max-w-3xl mx-auto mt-6 mb-6">
+              If you want to avoid travelling with 40 or more people on a large cruise bus, enjoy a first-class private service and travel at your own pace — TangierTours is the right choice.
+            </p>
+            <p className="text-white/75 leading-relaxed max-w-3xl mx-auto mb-8">
+              Customise your itinerary, avoid unnecessary long walks, and enjoy the convenience of having your private vehicle pick you up directly in front of your ship. Our vehicles can park close to many attractions where access is permitted, allowing you to make the most of your time and see more while travelling in comfort.
+            </p>
+            <p className="text-gold font-semibold mb-6">Whether you are visiting Tangier, Casablanca, Ceuta or Agadir — we are here to make your experience comfortable, flexible and memorable.</p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center">
+              <a href="https://wa.me/212668702424?text=Hi%20Abdelhamid%2C%20I%20would%20like%20to%20enquire%20about%20a%20shore%20excursion."
+                target="_blank" rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-[#25D366] text-white font-bold px-7 py-3 rounded hover:bg-[#20BA5A] transition">
+                WhatsApp — Send Your Enquiry
+              </a>
+              <a href="#book" className="inline-flex items-center gap-2 bg-gold text-navy font-bold px-7 py-3 rounded hover:opacity-90 transition">
+                Request Your Excursion
+              </a>
             </div>
           </div>
         </section>
@@ -292,25 +337,7 @@ export default function ShoreExcursionsPage() {
           </div>
         </section>
 
-        {/* WHY PRIVATE */}
-        <section className="py-16 bg-navy text-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center mb-12">
-              <h2 className="font-display text-3xl sm:text-4xl font-bold gold-divider mb-2">
-                Why Private Over Ship Tours?
-              </h2>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
-              {advantages.map((adv, i) => (
-                <div key={i} className="bg-white/5 border border-white/10 rounded p-5">
-                  <div className="bg-gold/20 rounded p-2 w-fit mb-3">{adv.icon}</div>
-                  <h3 className="font-semibold text-white mb-1.5">{adv.title}</h3>
-                  <p className="text-white/60 text-sm leading-relaxed">{adv.desc}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+
 
         {/* CRUISE LINES */}
         <section className="py-14 bg-ivory">
@@ -348,29 +375,31 @@ export default function ShoreExcursionsPage() {
         </section>
 
         {/* TESTIMONIALS */}
-        <section className="py-16 bg-ivory">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy text-center gold-divider mb-12">
-              What Cruise Passengers Say
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {testimonials.map((t, i) => (
-                <div key={i} className="bg-white border border-border-warm rounded p-6 flex flex-col">
-                  <div className="flex mb-3">
-                    {[1,2,3,4,5].map((s) => <Star key={s} className="w-4 h-4 text-gold fill-gold" />)}
+        {testimonials.length > 0 && (
+          <section className="py-16 bg-ivory">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <h2 className="font-display text-2xl sm:text-3xl font-bold text-navy text-center gold-divider mb-12">
+                What Cruise Passengers Say
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {testimonials.map((t, i) => (
+                  <div key={i} className="bg-white border border-border-warm rounded p-6 flex flex-col">
+                    <div className="flex mb-3">
+                      {[1,2,3,4,5].map((s) => <Star key={s} className="w-4 h-4 text-gold fill-gold" />)}
+                    </div>
+                    <blockquote className="text-charcoal text-sm leading-relaxed flex-1 italic mb-4">
+                      &ldquo;{t.text}&rdquo;
+                    </blockquote>
+                    <div className="border-t border-border-warm pt-4">
+                      <div className="font-semibold text-navy">{t.name}</div>
+                      <div className="text-xs text-muted-text">{t.country} · {t.ship}</div>
+                    </div>
                   </div>
-                  <blockquote className="text-charcoal text-sm leading-relaxed flex-1 italic mb-4">
-                    &ldquo;{t.text}&rdquo;
-                  </blockquote>
-                  <div className="border-t border-border-warm pt-4">
-                    <div className="font-semibold text-navy">{t.name}</div>
-                    <div className="text-xs text-muted-text">{t.country} · {t.ship}</div>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
-        </section>
+          </section>
+        )}
 
         {/* FAQ */}
         <section className="py-16 bg-white">
