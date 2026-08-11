@@ -84,7 +84,7 @@ const testimonials = [
   {
     name: "Miriam K.",
     origin: "Tel Aviv, Israel",
-    text: "I came to Tangier to find my grandmother's house. Idrissi not only found the street — he knew its history better than any book. He spoke Hebrew throughout, and the emotional depth he brought to every site moved me to tears. An unforgettable experience.",
+    text: "I came to Tangier to find my grandmother's house. Idrissi not only found the street — he knew its history better than any book. The depth and sensitivity he brought to every site moved me to tears. A profound experience.",
     stars: 5,
   },
   {

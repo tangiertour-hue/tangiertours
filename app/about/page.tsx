@@ -37,7 +37,7 @@ const faqSchema = {
       name: "Is Idrissi a certified guide?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Idrissi holds an official guide licence from the Moroccan Ministry of Tourism, first granted in 2008 and continuously renewed. He is also a member of the Fédération Nationale des Guides Touristiques du Maroc.",
+        text: "Yes. Idrissi holds an official guide licence from the Moroccan Ministry of Tourism and has served as Former President of the Tangier Tour Guides Association.",
       },
     },
     {
