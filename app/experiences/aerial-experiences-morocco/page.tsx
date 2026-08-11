@@ -65,6 +65,7 @@ export default function AerialExperiencesPage() {
         <HeroSection />
         <IntroSection />
         <ExperiencesSection />
+        <HelicopterSection />
         <HighlightsSection />
         <TransfersSection />
         <CtaSection />
@@ -138,6 +139,52 @@ function ExperiencesSection() {
             </div>
           ))}
         </div>
+      </div>
+    </section>
+  );
+}
+
+function HelicopterSection() {
+  return (
+    <section className="bg-navy py-16 px-4">
+      <div className="max-w-4xl mx-auto text-center">
+        {/* Headline */}
+        <span className="inline-block text-4xl mb-5">🚁</span>
+        <h2 className="font-display text-3xl sm:text-4xl font-bold text-white leading-tight mb-3">
+          Your Ultimate Private Helicopter Experience
+        </h2>
+        <p className="text-white/80 text-lg leading-relaxed max-w-2xl mx-auto mb-6">
+          Treat yourself to an unforgettable flight over Morocco&apos;s desert landscapes, majestic mountains, and ochre-coloured palaces.
+        </p>
+        <div className="flex flex-wrap justify-center gap-4 mb-8">
+          {["Private.", "Elegant.", "Unforgettable."].map((word) => (
+            <span key={word} className="font-display text-xl font-semibold text-gold">{word}</span>
+          ))}
+        </div>
+        <p className="text-white/65 text-sm mb-8">One message is all it takes to arrange your experience.</p>
+
+        {/* Divider */}
+        <div className="w-16 h-0.5 bg-gold mx-auto mb-10" />
+
+        {/* Mission */}
+        <h3 className="font-display text-2xl font-bold text-white mb-4">Our Mission</h3>
+        <p className="text-gold font-semibold text-base mb-5">Creating the exceptional, with simplicity and elegance.</p>
+        <p className="text-white/75 leading-relaxed max-w-2xl mx-auto mb-4">
+          Our mission is to offer every guest a seamless, exclusive and genuinely personal experience in Morocco — from the vibrant streets of Marrakesh to the country&apos;s most remarkable destinations.
+        </p>
+        <p className="text-white/75 leading-relaxed max-w-2xl mx-auto mb-8">
+          Whether it is a romantic weekend, a business trip, a private celebration or an exceptional event, we transform every journey into a tailor-made experience, shaped around each client&apos;s individual wishes and delivered with the highest standards of service.
+        </p>
+
+        {/* CTA */}
+        <a
+          href="https://wa.me/212668702424?text=Hi%20Abdelhamid%2C%20I%20am%20interested%20in%20a%20private%20helicopter%20experience%20in%20Morocco.%20Please%20send%20me%20more%20information."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-gold text-navy font-bold px-8 py-3.5 rounded hover:opacity-90 transition"
+        >
+          Arrange Your Helicopter Experience
+        </a>
       </div>
     </section>
   );
