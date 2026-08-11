@@ -21,6 +21,7 @@ const navItems = [
     ],
   },
   { label: "Jewish Heritage", href: "/jewish-heritage-tours" },
+  { label: "Cooking Experience", href: "/experiences/moroccan-cooking" },
   { label: "Luxury Tours", href: "/luxury-morocco-tours" },
   {
     label: "Transfers & Services",
