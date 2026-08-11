@@ -13,6 +13,7 @@ const tourLinks = [
   { label: "Tarifa Day Trip", href: "/tours/tangier-day-trip-from-tarifa" },
   { label: "Airport Meet & Greet", href: "/services/airport-meet-greet" },
   { label: "Moroccan Cooking Experience", href: "/experiences/moroccan-cooking" },
+  { label: "Aerial Experiences Morocco", href: "/experiences/aerial-experiences-morocco" },
   { label: "Luxury Morocco Tours", href: "/luxury-morocco-tours" },
 ];
 

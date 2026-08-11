@@ -236,6 +236,46 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* WE KNOW MOROCCO */}
+        <section className="bg-ivory border-y border-border-warm py-16 px-4">
+          <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="text-gold font-semibold text-sm tracking-widest uppercase">Local Expertise</span>
+              <h2 className="font-display text-3xl font-bold text-navy mt-2 mb-5 gold-divider-left">
+                We Know Morocco from the Inside Out
+              </h2>
+              <div className="space-y-4 text-muted-text leading-relaxed mt-6">
+                <p>Morocco is more than a destination to us — it is a country we know deeply and love sharing with our guests. Over the years, we have helped travellers turn their ideas and dream journeys into memorable experiences.</p>
+                <p>From tailor-made holidays and special celebrations to weddings and professional productions, we have had the privilege of organising and managing experiences for a wide range of discerning clients.</p>
+                <p>We remain a dedicated, hands-on team, committed to providing <strong className="text-navy">honest advice, personal attention and reliable local expertise</strong>. Our role is to take care of the details, help navigate the unexpected, and make each journey as smooth and enjoyable as possible.</p>
+                <p className="text-navy font-medium">You simply relax, enjoy the experience, and discover the best of Morocco — while we take care of the rest.</p>
+              </div>
+              <div className="mt-6 pt-4 border-t border-border-warm">
+                <p className="font-display text-lg font-semibold text-navy italic mb-4">
+                  &ldquo;When experience matters, trust those who know Morocco.&rdquo;
+                </p>
+                <Link href="/contact" className="inline-flex items-center gap-2 bg-navy text-white font-semibold px-6 py-3 rounded hover:bg-navy/90 transition">
+                  Plan Your Trip <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              {[
+                { icon: "🗺️", title: "Tailor-made holidays", desc: "Every itinerary is built around your interests, pace and travel style." },
+                { icon: "💍", title: "Special celebrations", desc: "Weddings, anniversaries, milestone journeys — planned with care." },
+                { icon: "🎬", title: "Professional productions", desc: "Film, photography and media work — local logistics handled." },
+                { icon: "🤝", title: "Hands-on service", desc: "Personal attention from first enquiry to final drop-off." },
+              ].map((item) => (
+                <div key={item.title} className="bg-white border border-border-warm rounded p-4">
+                  <span className="text-2xl block mb-2">{item.icon}</span>
+                  <div className="font-semibold text-navy text-sm mb-1">{item.title}</div>
+                  <p className="text-xs text-muted-text leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="max-w-3xl mx-auto px-4 pb-20">
           <div className="bg-navy rounded-xl p-8 text-center">

@@ -21,7 +21,14 @@ const navItems = [
     ],
   },
   { label: "Jewish Heritage", href: "/jewish-heritage-tours" },
-  { label: "Cooking Experience", href: "/experiences/moroccan-cooking" },
+  {
+    label: "Experiences",
+    href: "/experiences/moroccan-cooking",
+    children: [
+      { label: "Moroccan Cooking Experience", href: "/experiences/moroccan-cooking" },
+      { label: "Aerial Experiences Morocco", href: "/experiences/aerial-experiences-morocco" },
+    ],
+  },
   { label: "Luxury Tours", href: "/luxury-morocco-tours" },
   {
     label: "Transfers & Services",

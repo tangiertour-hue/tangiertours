@@ -20,6 +20,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/tours/tangier-day-trip-from-tarifa`, lastModified: now, changeFrequency: "monthly", priority: 0.88 },
     { url: `${BASE_URL}/services/airport-meet-greet`, lastModified: now, changeFrequency: "monthly", priority: 0.80 },
     { url: `${BASE_URL}/experiences/moroccan-cooking`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
+    { url: `${BASE_URL}/experiences/aerial-experiences-morocco`, lastModified: now, changeFrequency: "monthly", priority: 0.85 },
     // Luxury
     { url: `${BASE_URL}/luxury-morocco-tours`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     // Jewish Heritage
