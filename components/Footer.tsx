@@ -26,6 +26,7 @@ const heritageLinks = [
 const companyLinks = [
   { label: "About Idrissi", href: "/about" },
   { label: "Customer Reviews", href: "/reviews" },
+  { label: "Leave a Review", href: "/leave-a-review" },
   { label: "Pricing", href: "/pricing" },
   { label: "Destinations", href: "/destinations" },
   { label: "Blog", href: "/blog" },

@@ -335,11 +335,30 @@ export default function ReviewsPage() {
           </div>
         </section>
 
+        {/* Leave a Review CTA */}
+        <section className="bg-ivory border-t border-border-warm py-14 px-4">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="text-3xl mb-3">⭐</div>
+            <h2 className="font-display text-2xl font-bold text-navy mb-3">
+              Travelled with TangierTours?
+            </h2>
+            <p className="text-muted-text mb-6 max-w-xl mx-auto">
+              We would love to hear about your experience. Share your review directly on our website — it only takes a few minutes.
+            </p>
+            <Link
+              href="/leave-a-review"
+              className="inline-flex items-center gap-2 bg-gold text-navy font-bold px-8 py-3.5 rounded hover:opacity-90 transition"
+            >
+              <Star className="w-4 h-4" /> Leave a Review
+            </Link>
+          </div>
+        </section>
+
         {/* CTA Banner */}
         <section className="bg-navy py-16 px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-display text-2xl md:text-3xl font-bold text-white mb-3">
-              Join 500+ Happy Travellers
+              Ready to Explore Morocco?
             </h2>
             <p className="text-white/70 mb-8 text-lg">
               Book your private Morocco tour today — we reply within 2 hours, 7 days a week.
