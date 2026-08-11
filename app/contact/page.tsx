@@ -234,7 +234,7 @@ export default function ContactPage() {
         {/* Trust */}
         <section className="bg-white border-t border-[var(--border-warm)] py-8 px-4">
           <div className="max-w-3xl mx-auto flex flex-wrap justify-center gap-6 text-sm text-[var(--muted-text)]">
-            {["No payment required to enquire", "Free cancellation policy", "4.9 / 5 from 87 reviews", "Licensed local guide", "Private & personalised"].map((t) => (
+            {["No payment required to enquire", "Free cancellation policy", "Licensed by Morocco Ministry of Tourism", "Licensed local guide", "Private & personalised"].map((t) => (
               <div key={t} className="flex items-center gap-1.5">
                 <CheckCircle className="w-4 h-4 text-green-500 shrink-0" />
                 {t}

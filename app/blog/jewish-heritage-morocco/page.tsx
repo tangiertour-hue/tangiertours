@@ -108,7 +108,7 @@ const faqs = [
   },
   {
     q: "Do I need a specialist guide for Jewish heritage sites?",
-    a: "For the deepest and most meaningful experience, yes. A specialist guide who speaks Hebrew, knows the historical context, and has relationships with the custodians of synagogues and cemeteries will unlock doors — literally and figuratively — that a standard tourist visit cannot. Many synagogues are not permanently open and require arrangement in advance.",
+    a: "For the deepest and most meaningful experience, yes. A specialist guide who knows the historical context and has relationships with the custodians of synagogues and cemeteries will unlock access — literally and figuratively — that a standard tourist visit cannot. Many synagogues are not permanently open and require arrangement in advance.",
   },
   {
     q: "Can I research my family's Moroccan Jewish roots during a tour?",
@@ -284,7 +284,7 @@ function CitySitesSection() {
           {city.city === "Tangier" && (
             <div className="mt-6 bg-ivory border border-border-warm rounded p-4 flex items-center justify-between gap-4 flex-wrap">
               <p className="text-sm text-muted-text">
-                <strong className="text-navy">Book a specialist Tangier Jewish Heritage Tour</strong> — guided by Idrissi, Hebrew-speaking, 3–4 hours.
+                <strong className="text-navy">Book a specialist Tangier Jewish Heritage Tour</strong> — guided by Idrissi, specialist, 3–4 hours.
               </p>
               <Link href="/jewish-heritage-tours/tangier" className="shrink-0 inline-flex items-center gap-1.5 bg-navy text-white text-sm font-semibold px-4 py-2 rounded hover:bg-navy/90 transition">
                 View Tour <ArrowRight className="w-3.5 h-3.5" />
@@ -379,7 +379,7 @@ function AuthorCta() {
       <div className="text-3xl mb-3">✡️</div>
       <h2 className="font-display text-2xl font-bold mb-3">Ready to Explore Morocco&apos;s Jewish Heritage?</h2>
       <p className="text-white/75 leading-relaxed max-w-xl mx-auto mb-6">
-        I offer private specialist Jewish heritage tours in Tangier and Casablanca — conducted in English, French, Spanish, Arabic, or Hebrew. Every tour is tailored to your family history, interests, and schedule. No group to wait for. No rushed itinerary.
+        I offer private specialist Jewish heritage tours in Tangier and Casablanca — conducted in English, French, Spanish or Arabic. Every tour is tailored to your family history, interests, and schedule. No group to wait for. No rushed itinerary.
       </p>
       <div className="flex flex-col sm:flex-row gap-3 justify-center">
         <Link href="/jewish-heritage-tours" className="bg-gold text-navy font-bold px-7 py-3 rounded hover:opacity-90 transition inline-flex items-center gap-2">
@@ -393,7 +393,7 @@ function AuthorCta() {
         <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-xl shrink-0">👨‍💼</div>
         <div className="text-left">
           <div className="font-semibold text-sm">Idrissi</div>
-          <div className="text-white/55 text-xs">Licensed Tour Guide · Tangier, Morocco · Hebrew speaker</div>
+          <div className="text-white/55 text-xs">Licensed Tour Guide · Tangier, Morocco · multilingual guide</div>
         </div>
       </div>
     </section>
@@ -421,7 +421,7 @@ function Sidebar({ tocItems }: { tocItems: { anchor: string; label: string }[] }
       <div className="bg-navy rounded p-5 text-white text-center">
         <div className="text-2xl mb-2">✡️</div>
         <h3 className="font-display text-base font-bold mb-2">Book a Heritage Tour</h3>
-        <p className="text-white/70 text-xs mb-4 leading-relaxed">Private guided tours of Morocco&apos;s Jewish sites with Hebrew-speaking guide Idrissi.</p>
+        <p className="text-white/70 text-xs mb-4 leading-relaxed">Private guided tours of Morocco&apos;s Jewish sites with specialist guide Idrissi.</p>
         <Link href="/jewish-heritage-tours" className="block bg-gold text-navy text-sm font-bold px-4 py-2.5 rounded hover:opacity-90 transition mb-2">
           View Heritage Tours
         </Link>

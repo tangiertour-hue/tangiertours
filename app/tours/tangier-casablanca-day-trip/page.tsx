@@ -144,7 +144,7 @@ function HeroSection() {
               { icon: <Clock className="w-4 h-4 text-gold" />, text: "Full day (10–12 hrs)" },
               { icon: <Train className="w-4 h-4 text-gold" />, text: "Al Boraq — 2h10 each way" },
               { icon: <Users className="w-4 h-4 text-gold" />, text: "Fully private" },
-              { icon: <Star className="w-4 h-4 text-gold" />, text: "4.9★ rated guide" },
+              { icon: <Star className="w-4 h-4 text-gold" />, text: "Licensed professional guide" },
             ].map((b, i) => (
               <span key={i} className="flex items-center gap-1.5">{b.icon}{b.text}</span>
             ))}

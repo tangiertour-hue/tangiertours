@@ -11,7 +11,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 export const metadata: Metadata = {
   title: "Tangier Day Trip from Gibraltar — Private Tour | TangierTours",
   description:
-    "Take the ferry from Gibraltar to Tangier and explore Morocco with private licensed guide Idrissi. Half-day and full-day options. Hassle-free, guaranteed return.",
+    "Take the ferry from Gibraltar to Tangier and explore Morocco with private licensed guide Idrissi. Half-day and full-day options. Ferry-time planning — your itinerary is designed around your return crossing.",
   keywords:
     "Tangier day trip from Gibraltar, Gibraltar to Tangier ferry tour, Morocco day trip Gibraltar, Tangier private tour from Gibraltar, Strait of Gibraltar tour",
 };
@@ -126,8 +126,8 @@ export default function GibraltarDayTripPage() {
                   { icon: <Clock className="w-4 h-4 text-gold" />, text: "Full day (~7 hrs in Tangier)" },
                   { icon: <Ship className="w-4 h-4 text-gold" />, text: "35-min ferry crossing" },
                   { icon: <Users className="w-4 h-4 text-gold" />, text: "Fully private tour" },
-                  { icon: <Shield className="w-4 h-4 text-gold" />, text: "Guaranteed return time" },
-                  { icon: <Star className="w-4 h-4 text-gold" />, text: "4.9★ rated guide" },
+                  { icon: <Shield className="w-4 h-4 text-gold" />, text: "Ferry-time planning" },
+                  { icon: <Star className="w-4 h-4 text-gold" />, text: "Licensed professional guide" },
                 ].map((b, i) => (
                   <span key={i} className="flex items-center gap-1.5">{b.icon}{b.text}</span>
                 ))}
@@ -260,7 +260,7 @@ export default function GibraltarDayTripPage() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {[
                 { title: "Tangier Private Tours", href: "/tours/tangier-private-tours", desc: "Half-day or full-day private exploration of Tangier." },
-                { title: "Shore Excursions", href: "/tours/tangier-shore-excursions", desc: "For cruise passengers — guaranteed return to port." },
+                { title: "Shore Excursions", href: "/tours/tangier-shore-excursions", desc: "For cruise passengers — excursions planned around your ship's departure schedule." },
                 { title: "Chefchaouen Day Trip", href: "/tours/chefchaouen-day-trip-from-tangier", desc: "Extend your visit — stay in Tangier and visit the Blue City." },
               ].map((t) => (
                 <Link key={t.href} href={t.href} className="group bg-white border border-border-warm rounded p-4 hover:shadow-md transition-all">

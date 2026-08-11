@@ -12,15 +12,15 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "TangierTours — Private Tour Guide in Tangier, Morocco | Idrissi",
+  title: "Tangier Private Tours & Licensed Tour Guide | TangierTours Morocco",
   description:
-    "Private tours in Tangier, Morocco with licensed guide Abdelhamid Idrissi. Shore excursions, Jewish heritage tours, Chefchaouen day trips & private transfers. Request your itinerary today.",
+    "Private tours in Tangier, Morocco with licensed guide Abdelhamid Idrissi — over 15 years of experience. Shore excursions, Jewish heritage tours, Chefchaouen day trips & private transfers.",
   keywords:
-    "Tangier private tour, Tangier tour guide, private tours Morocco, shore excursion Tangier, Jewish heritage Morocco, luxury Morocco tours",
+    "Tangier private tour, Tangier tour guide, private tour guide Tangier Morocco, shore excursion Tangier, Jewish heritage Morocco, Chefchaouen day trip",
   openGraph: {
-    title: "TangierTours — Private Tour Guide in Tangier, Morocco",
+    title: "Tangier Private Tours & Licensed Tour Guide | TangierTours Morocco",
     description:
-      "Private tours in Tangier and Morocco with licensed local guide Abdelhamid Idrissi. Personalized itineraries, shore excursions, Jewish heritage, Chefchaouen & private transfers.",
+      "Private tours in Tangier with licensed guide Abdelhamid Idrissi. Over 15 years of professional experience. Shore excursions, Jewish heritage, Chefchaouen & private transfers.",
     type: "website",
     locale: "en_US",
   },
@@ -311,7 +311,7 @@ export default function HomePage() {
                   Morocco has one of the world's oldest and most vibrant Jewish histories — 2,000 years of coexistence, culture, and community. The ancient Mellahs (Jewish quarters) of Tangier and Casablanca, the working synagogues, the royal cemeteries, and the Museum of Moroccan Judaism tell a story unlike any other.
                 </p>
                 <p className="text-white/75 leading-relaxed mb-8">
-                  Idrissi speaks Hebrew and brings deep personal knowledge to these tours, guiding Jewish families from Israel, the US, France, and beyond to reconnect with their Moroccan roots.
+                  Idrissi brings deep personal knowledge to these tours, guiding Jewish families from Europe and beyond to reconnect with Morocco&apos;s extraordinary Jewish heritage.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
@@ -358,7 +358,7 @@ export default function HomePage() {
                   With over 15 years of experience guiding visitors through Morocco's most captivating landscapes and cities, Idrissi brings rare expertise, genuine warmth, and an insider's knowledge that transforms a sightseeing trip into a life-changing experience.
                 </p>
                 <p className="text-muted-text leading-relaxed mb-6">
-                  Licensed by the Moroccan Ministry of Tourism and fluent in five languages — English, French, Spanish, Arabic, and Hebrew — Idrissi is uniquely placed to serve travellers from across the world, including specialist Jewish heritage tours for families tracing their Moroccan roots.
+                  Licensed by the Moroccan Ministry of Tourism and fluent in English, French, Spanish and Arabic, Idrissi is well placed to welcome travellers from around the world, including families seeking specialist Jewish heritage tours.
                 </p>
                 <div className="flex flex-wrap gap-3 mb-8">
                   {["English", "Français", "Español", "العربية"].map((lang) => (

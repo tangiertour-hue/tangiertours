@@ -84,7 +84,7 @@ const tours = [
   {
     title: "Casablanca Jewish Heritage Tour",
     href: "/jewish-heritage-tours/casablanca",
-    desc: "Specialist guided tour of Casablanca's Jewish Quarter, Beth El Synagogue, Museum of Moroccan Judaism, and Jewish Cemetery — led by Hebrew-speaking guide Idrissi.",
+    desc: "Specialist guided tour of Casablanca's Jewish Quarter, Beth El Synagogue, Museum of Moroccan Judaism, and Jewish Cemetery — led by specialist guide Idrissi.",
   },
   {
     title: "Private Morocco Transfers",
@@ -189,7 +189,7 @@ export default function CasablancaPage() {
             <span className="inline-block text-3xl mb-4">✡️</span>
             <h2 className="font-display text-3xl font-bold text-white mb-4">Jewish Heritage in Casablanca</h2>
             <p className="text-white/75 leading-relaxed max-w-3xl mx-auto mb-8">
-              Casablanca was home to one of the largest Jewish communities in the Arab world — over 80,000 people at its peak in the 1950s. The Museum of Moroccan Judaism, the Beth El Synagogue, the Habous Quarter, and the Jewish Cemetery together tell a story of 2,000 years of Moroccan Jewish life. Our specialist Jewish heritage tours, led by Hebrew-speaking guide Idrissi, bring this extraordinary history to life.
+              Casablanca was home to one of the largest Jewish communities in the Arab world — over 80,000 people at its peak in the 1950s. The Museum of Moroccan Judaism, the Beth El Synagogue, the Habous Quarter, and the Jewish Cemetery together tell a story of 2,000 years of Moroccan Jewish life. Our specialist Jewish heritage tours, led by specialist guide Idrissi, bring this extraordinary history to life.
             </p>
             <Link href="/jewish-heritage-tours/casablanca" className="inline-flex items-center gap-2 bg-gold text-navy font-bold px-8 py-3.5 rounded hover:opacity-90 transition">
               Explore the Casablanca Jewish Heritage Tour <ArrowRight className="w-4 h-4" />

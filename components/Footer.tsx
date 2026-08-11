@@ -109,12 +109,12 @@ export default function Footer() {
             <h3 className="font-display text-base font-semibold text-gold mb-4">Why TangierTours?</h3>
             <ul className="space-y-3 text-sm text-white/65">
               {[
-                "Licensed & certified guide",
-                "500+ tours completed",
-                "4.9★ on Google & TripAdvisor",
-                "English, French, Spanish, Arabic, Hebrew",
-                "Fully customizable private tours",
-                "Guaranteed on-time returns for cruise passengers",
+                "Licensed by Morocco Ministry of Tourism",
+                "Former President, Tangier Tour Guides Association",
+                "English, French, Spanish & Arabic",
+                "Fully customisable private tours",
+                "Shore excursions planned around your ship's schedule",
+                "Over 15 years of professional experience",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-2">
                   <Star className="w-3.5 h-3.5 text-gold shrink-0 mt-0.5" />

@@ -34,8 +34,8 @@ const tourSchema = {
   },
   aggregateRating: {
     "@type": "AggregateRating",
-    ratingValue: "4.9",
-    reviewCount: "41",
+    
+    
     bestRating: "5",
   },
 };
@@ -173,7 +173,7 @@ export default function ChefchaouenPage() {
             <Breadcrumb items={breadcrumbItems} />
             <div className="max-w-3xl mt-6">
               <div className="inline-flex items-center gap-2 bg-gold/20 border border-gold/40 text-gold text-sm font-semibold px-4 py-1.5 rounded-full mb-5">
-                <Star className="w-3.5 h-3.5" /> 4.9★ Rated · Top-Rated Morocco Day Trip
+                <Star className="w-3.5 h-3.5" /> Licensed Private Guide · Northern Morocco
               </div>
               <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight mb-5">
                 Chefchaouen Day Trip from Tangier —{" "}

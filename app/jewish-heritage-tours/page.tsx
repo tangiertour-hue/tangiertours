@@ -46,10 +46,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "Does the tour guide speak Hebrew?",
+      name: "What languages does the tour guide speak?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. Guide Idrissi speaks Hebrew and has studied Moroccan Jewish history extensively. He is known for the depth and sensitivity he brings to these tours, many of which serve families returning to trace their ancestral roots.",
+        text: "Idrissi speaks English, French, Spanish and Arabic. He has studied Moroccan Jewish history extensively and is known for the depth and sensitivity he brings to heritage tours.",
       },
     },
     {
@@ -104,7 +104,7 @@ const testimonials = [
 const faqs = [
   { q: "Is Morocco safe for Jewish travelers?", a: "Morocco is one of the safest Muslim-majority countries for Jewish visitors. King Mohammed VI has actively championed Jewish heritage, the country has diplomatic relations with Israel, and Jewish travellers from Israel, France, and the US visit regularly and are welcomed warmly." },
   { q: "What Jewish sites are in Morocco?", a: "Morocco has remarkable Jewish heritage: the Tangier and Casablanca Mellahs, multiple active and historic synagogues, the Museum of Moroccan Judaism (the only Jewish museum in the Arab world), cemeteries, and community buildings across Tangier, Casablanca, Fez, and Marrakech." },
-  { q: "Does the tour guide speak Hebrew?", a: "Yes. Guide Idrissi speaks Hebrew and has studied Moroccan Jewish history extensively. Many of his clients are Israeli families returning to trace their ancestral roots." },
+  { q: "What languages are the tours available in?", a: "Tours are conducted in English, French, Spanish or Arabic. Idrissi has studied Moroccan Jewish history extensively and welcomes families returning to trace their ancestral roots." },
   { q: "Can you arrange a Shabbat meal?", a: "With advance notice we can help arrange a traditional Moroccan-Jewish Shabbat dinner. Please mention this when booking." },
   { q: "How long does a Jewish heritage tour take?", a: "The Tangier tour is 3–4 hours; Casablanca 4–5 hours. We can combine both into a two-day itinerary including private transfers between the cities." },
 ];
@@ -126,7 +126,7 @@ export default function JewishHeritageHubPage() {
               Jewish Heritage Tours in Morocco —<br />Discover 2,000 Years of History
             </h1>
             <p className="text-white/80 text-lg leading-relaxed mt-6">
-              Private guided tours through Morocco's extraordinary Jewish world — Tangier, Casablanca, and beyond. Led by a Hebrew-speaking local guide with deep historical expertise and genuine human warmth.
+              Private guided tours through Morocco's extraordinary Jewish world — Tangier, Casablanca, and beyond. Led by a specialist local guide with deep historical expertise and genuine human warmth.
             </p>
           </div>
         </section>
@@ -206,7 +206,7 @@ export default function JewishHeritageHubPage() {
             <h2 className="font-display text-3xl text-white mb-2 gold-divider">Why Tour with Idrissi?</h2>
             <div className="grid sm:grid-cols-3 gap-6 mt-10">
               {[
-                { icon: Globe, title: "Speaks Hebrew", body: "Idrissi communicates fluently in Hebrew, making Israeli and diaspora families feel truly at home." },
+                { icon: Globe, title: "Multilingual Guide", body: "Tours conducted in English, French, Spanish or Arabic. Families are welcomed with genuine warmth and cultural understanding." },
                 { icon: BookOpen, title: "Deep Historical Knowledge", body: "He has spent years studying Moroccan Jewish history — from the Mellah's founding to today's diaspora returns." },
                 { icon: Shield, title: "Respectful & Sensitive", body: "Every tour is conducted with the gravity and tenderness these sites and stories deserve." },
               ].map((item) => {

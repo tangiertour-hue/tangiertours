@@ -10,7 +10,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Tangier Jewish Heritage Tour — Mellah, Synagogues & History | TangierTours",
   description:
-    "Explore the Tangier Jewish quarter on a private guided tour. Visit Ben Chimol Synagogue, the Jewish Cemetery, and the Tangier Mellah. Expert Hebrew-speaking guide Idrissi.",
+    "Explore the Tangier Jewish quarter on a private guided tour. Visit Ben Chimol Synagogue, the Jewish Cemetery, and the Tangier Mellah. Expert specialist guide Idrissi.",
 };
 
 const jsonLd = {

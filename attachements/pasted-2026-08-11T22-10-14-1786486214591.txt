@@ -1,0 +1,941 @@
+MASTER INSTRUCTION — TANGIERTOURS.MA COMPLETE SEO, AI VISIBILITY, CONTENT & TECHNICAL OPTIMIZATION
+
+IMPORTANT:
+
+You are editing my existing live website:
+
+https://www.tangiertours.ma/
+
+I want you to improve the existing website from A to Z for SEO, Google search, AI/search visibility, trust, usability, and conversions.
+
+DO NOT change my domain.
+
+DO NOT rebuild the website from scratch.
+
+DO NOT delete good existing content or pages unnecessarily.
+
+DO NOT change URLs unnecessarily.
+
+DO NOT invent facts, credentials, reviews, awards, prices, services, statistics, or business information.
+
+Before making changes, audit the entire existing website and then make careful improvements.
+
+The objective is to make TangierTours a strong, trustworthy, technically sound and clearly understood online presence for travelers looking for a licensed private tour guide in Tangier and Morocco.
+
+==================================================
+
+1. BUSINESS POSITIONING
+   ==================================================
+
+The core identity of the website should be:
+
+TangierTours — Private Tours & Licensed Professional Tour Guide in Tangier, Morocco
+
+The main guide is:
+
+Abdelhamid Idrissi
+
+The website should clearly establish that Idrissi is a licensed Moroccan tourist guide based in Tangier, with more than 15 years of professional experience.
+
+Primary services include:
+
+* Private Tangier Tours
+* Tangier City Tours
+* Tangier Shore Excursions
+* Tangier Cruise Excursions
+* Jewish Heritage Tours in Tangier
+* Jewish Heritage Tours in Morocco
+* Casablanca Jewish Heritage Tours
+* Chefchaouen Day Trips from Tangier
+* Asilah Day Trips
+* Private Morocco Tours
+* Private Transfers
+* Airport/Port Transfers
+* Customized Private Tours
+* Other genuine experiences already offered on the website
+
+The primary audience is international travelers, particularly English-speaking travelers visiting Tangier and Morocco.
+
+Do not position the website primarily for Moroccan domestic tourism.
+
+==================================================
+2. FIRST AUDIT THE ENTIRE WEBSITE
+=================================
+
+Before changing anything, inspect every important page.
+
+Audit:
+
+* Homepage
+* Tours page
+* Every individual tour page
+* Jewish Heritage pages
+* About Idrissi
+* Reviews
+* Pricing
+* Destinations
+* Gallery
+* Blog
+* Contact/Booking
+* Cancellation Policy
+* Transfers
+* Luxury Tours
+* Experiences
+* Any other indexed page
+
+Also inspect:
+
+* Navigation
+* Footer
+* Internal links
+* URLs
+* Page titles
+* Meta descriptions
+* H1/H2/H3 structure
+* Images
+* Alt text
+* Canonical tags
+* Sitemap
+* Robots.txt
+* Structured data/schema
+* Open Graph metadata
+* Mobile layout
+* Forms
+* WhatsApp links
+* Page speed
+* Broken links
+* Duplicate content
+* Thin content
+* Indexability
+* Redirects
+
+Do not make major structural changes until you understand what is already present.
+
+==================================================
+3. VERY IMPORTANT: FACT CONSISTENCY
+===================================
+
+I have identified some apparent inconsistencies in the current website.
+
+Do NOT automatically "fix" these by guessing.
+
+Instead, identify them and either correct them only when clearly supported by the existing website or put them in a section called:
+
+FACTS REQUIRING OWNER CONFIRMATION
+
+Current examples that need careful checking include:
+
+A. LANGUAGES
+
+Some parts of the website state:
+
+English, French, Spanish and Arabic
+
+while another part states:
+
+English, French, Spanish, Arabic and Hebrew.
+
+Make this completely consistent ONLY after determining the correct factual information.
+
+B. REVIEWS
+
+Some pages currently mention:
+
+4.9 / 5
+87 reviews
+Google & TripAdvisor
+
+while another section currently says:
+
+"Reviews coming soon"
+
+Do not display contradictory review information.
+
+Do not invent or remove genuine reviews.
+
+Make the presentation consistent with the actual verified review sources.
+
+C. EXPERIENCE
+
+The website currently uses both:
+
+15+ years experience
+
+and references to guiding since 2008 / licence first granted in 2008.
+
+Keep only factually correct wording and make it consistent.
+
+D. ADDRESS
+
+Check the business address appearing throughout the website and make sure the same verified address is used consistently.
+
+E. LICENSE / PROFESSIONAL CREDENTIALS
+
+The website states that Idrissi is licensed by the Moroccan Ministry of Tourism and references professional membership.
+
+Do not alter or exaggerate these claims.
+
+Use the exact factual wording supported by the owner's credentials.
+
+F. OTHER CLAIMS
+
+Check all claims such as:
+
+* 500+ tours
+* 4.9 rating
+* number of reviews
+* "top-rated"
+* "trusted"
+* "guaranteed"
+* years in business
+* language count
+* professional memberships
+* awards
+* media mentions
+* customer testimonials
+
+Only publish claims that are genuine and supportable.
+
+==================================================
+4. DOMAIN AND CANONICALIZATION
+==============================
+
+Keep:
+
+tangiertours.ma
+
+Do NOT change the domain.
+
+The preferred website version should be:
+
+https://www.tangiertours.ma/
+
+The non-www version should properly redirect to the preferred version.
+
+I have verified that:
+
+https://tangiertours.ma/
+
+currently redirects to:
+
+https://www.tangiertours.ma/
+
+Preserve this behavior if it is technically correct.
+
+Check:
+
+* 301 redirect
+* canonical URL
+* internal links
+* sitemap
+* robots.txt
+* Open Graph URL
+* structured data URLs
+
+Make sure Google does not treat www and non-www as competing versions.
+
+Do not create unnecessary redirects.
+
+==================================================
+5. HOMEPAGE
+===========
+
+Optimize the homepage around the primary search intent:
+
+Private Tangier Tours & Licensed Tour Guide in Morocco
+
+The first screen should immediately communicate:
+
+WHO:
+Idrissi, licensed professional tour guide
+
+WHERE:
+Tangier, Morocco
+
+WHAT:
+Private tours and personalized experiences
+
+WHY:
+15+ years of local professional experience
+
+The homepage should naturally include important concepts such as:
+
+Tangier private tours
+Tangier tour guide
+private tours in Tangier
+Tangier Morocco tours
+licensed tour guide in Tangier
+Tangier shore excursions
+Jewish heritage tours
+Chefchaouen day trips
+
+Do not keyword-stuff.
+
+The writing should remain natural and professional.
+
+==================================================
+6. HOMEPAGE TITLE AND META DESCRIPTION
+======================================
+
+Create a strong, unique SEO title.
+
+Suggested direction:
+
+Tangier Private Tours & Licensed Tour Guide | Morocco
+
+You may improve this if you have a better SEO-based alternative.
+
+Create a compelling unique meta description describing:
+
+* private Tangier tours
+* licensed local guide
+* Morocco
+* personalized experiences
+* Jewish heritage / shore excursions where appropriate
+
+Do not stuff keywords.
+
+==================================================
+7. SERVICE / TOUR PAGE STRATEGY
+===============================
+
+Each major search intent should have a strong dedicated page.
+
+Prioritize the following where appropriate:
+
+1. Tangier Private Tours
+2. Tangier Tour Guide
+3. Tangier Shore Excursions
+4. Tangier Cruise Excursions
+5. Tangier Jewish Heritage Tours
+6. Jewish Tours in Morocco
+7. Casablanca Jewish Heritage Tours
+8. Chefchaouen Day Trip from Tangier
+9. Asilah Day Trip from Tangier
+10. Private Morocco Tours from Tangier
+11. Tangier Airport / Port Transfers
+
+Do NOT create pages simply to increase the number of pages.
+
+Only create a page if there is enough genuinely useful information to make it valuable.
+
+Every important service page should explain:
+
+* what the experience is
+* who it is suitable for
+* duration
+* itinerary
+* highlights
+* what is included
+* what is not included
+* pickup options
+* customization
+* practical information
+* FAQs
+* how to contact/book
+
+==================================================
+8. TANGIER PRIVATE TOURS PAGE
+=============================
+
+Strengthen the dedicated Tangier Private Tours page around the search intent:
+
+Tangier private tours
+
+Tangier private tour
+
+private tour in Tangier Morocco
+
+Tangier tour guide
+
+The page should establish why a private local guide is useful.
+
+Avoid exaggerated tourism language.
+
+Use specific Tangier locations and genuine experience details naturally.
+
+==================================================
+9. JEWISH HERITAGE SEO
+======================
+
+Jewish heritage tourism is an important specialist area of TangierTours.
+
+Strengthen the site's authority around:
+
+* Tangier Jewish heritage
+* Tangier Jewish history
+* Tangier Mellah
+* Jewish heritage tours Tangier
+* Jewish tours Morocco
+* Moroccan Jewish heritage
+* Casablanca Jewish heritage
+* Jewish cemeteries
+* synagogues
+* Museum of Moroccan Judaism
+* Moroccan Jewish roots
+
+Provide useful historical and cultural information.
+
+Do not make unsupported historical claims.
+
+Do not use sensational language.
+
+The objective is to demonstrate genuine knowledge and first-hand expertise rather than simply repeating keywords.
+
+==================================================
+10. ABOUT IDRISSI
+=================
+
+Strengthen the About page as an important trust and authority page.
+
+Clearly identify:
+
+Abdelhamid Idrissi
+Licensed Professional Tour Guide
+Tangier, Morocco
+
+Where factually verified, explain:
+
+* professional experience
+* licensing
+* professional training
+* local knowledge
+* languages
+* areas of specialization
+* guiding philosophy
+* experience with international travelers
+* Jewish heritage specialization
+
+The page should sound like a real professional guide, not generic AI marketing copy.
+
+Use first-hand experience where appropriate.
+
+Do not invent personal history.
+
+==================================================
+11. E-E-A-T / TRUST
+===================
+
+Strengthen genuine Experience, Expertise, Authoritativeness and Trust signals.
+
+Clearly communicate real:
+
+* licensing
+* professional experience
+* qualifications
+* local expertise
+* photographs of Idrissi
+* actual tour photographs
+* genuine customer reviews
+* professional affiliations, if verified
+* external review profiles
+
+Do not create fake authority.
+
+Do not claim to be "the best" unless there is an objective, verifiable basis.
+
+==================================================
+12. REVIEWS
+===========
+
+Review the current review system carefully.
+
+If Google and TripAdvisor reviews are genuine, make it easy for users to understand:
+
+* where the reviews come from
+* rating
+* number of reviews
+* link to the external profile
+
+Do not show contradictory messages such as:
+
+"87 reviews"
+
+and
+
+"Reviews coming soon"
+
+at the same time.
+
+Do not create fake testimonials.
+
+Do not modify the wording of real customer testimonials unless necessary for formatting.
+
+==================================================
+13. FAQ
+=======
+
+Improve FAQs based on real traveler questions.
+
+Useful topics include:
+
+* How much does a private Tangier tour cost?
+* Is Tangier safe for tourists?
+* Can you meet cruise passengers at Tangier port?
+* Can I customize my tour?
+* How long is a Tangier city tour?
+* Do you offer Chefchaouen day trips?
+* Do you offer Jewish heritage tours?
+* What languages does Idrissi speak?
+* How do I book?
+* What payment methods are available?
+* Can I book a last-minute tour?
+* Do you provide airport or ferry-port pickup?
+
+Answers must be accurate.
+
+Do not promise availability that cannot be guaranteed.
+
+==================================================
+14. INTERNAL LINKING
+====================
+
+Create a logical internal-link network.
+
+For example:
+
+Homepage
+→ Tangier Private Tours
+→ Tangier Shore Excursions
+→ Jewish Heritage Tours
+→ Chefchaouen Day Trip
+→ Other relevant services
+
+Jewish Heritage content should link naturally between:
+
+Jewish Heritage Tours
+→ Tangier Jewish Heritage
+→ Casablanca Jewish Heritage
+→ Jewish Tours in Morocco
+
+Use descriptive but natural anchor text.
+
+Do not over-optimize anchor text.
+
+==================================================
+15. SEO TITLES
+==============
+
+Every important page must have a unique SEO title.
+
+Do not use the same title everywhere.
+
+Titles should clearly describe the actual page and search intent.
+
+Examples:
+
+Tangier Private Tours | Licensed Local Guide
+
+Tangier Shore Excursions | Private Port Tours
+
+Tangier Jewish Heritage Tours | Private Jewish History Tour
+
+Chefchaouen Day Trip from Tangier | Private Tour
+
+Do not blindly use these examples if a better title fits the actual page.
+
+==================================================
+16. META DESCRIPTIONS
+=====================
+
+Create unique meta descriptions for important pages.
+
+They should:
+
+* accurately describe the page
+* encourage clicks
+* include relevant terms naturally
+* avoid keyword stuffing
+* be appropriate for search results
+
+==================================================
+17. HEADINGS
+============
+
+Every important page should have:
+
+one clear H1
+
+logical H2 sections
+
+H3 sections where appropriate
+
+Do not use headings merely for visual styling.
+
+Make the heading structure understandable to both humans and search engines.
+
+==================================================
+18. AI / LLM VISIBILITY
+=======================
+
+Optimize the website so that search engines and AI systems can clearly understand the entity.
+
+The website should make these relationships unmistakable:
+
+Abdelhamid Idrissi
+→ licensed professional tour guide
+→ Tangier
+→ Morocco
+→ private tours
+→ Tangier sightseeing
+→ shore excursions
+→ Jewish heritage
+→ Chefchaouen
+→ northern Morocco
+
+Important facts should be written clearly in normal text.
+
+Do not hide important information only inside images.
+
+Use clear question-and-answer content where useful.
+
+Use consistent terminology throughout the website.
+
+==================================================
+19. STRUCTURED DATA
+===================
+
+Audit and implement appropriate structured data where supported.
+
+Consider appropriate:
+
+* LocalBusiness
+* Person
+* Organization
+* WebSite
+* WebPage
+* BreadcrumbList
+* FAQPage where eligible
+* appropriate tourism/tour-related schema where valid
+
+Use only schema that accurately represents the visible page content.
+
+Do NOT create fake:
+
+* ratings
+* reviews
+* prices
+* awards
+* business information
+
+Validate the structured data after implementation.
+
+==================================================
+20. IMAGES
+==========
+
+Optimize images for SEO and speed.
+
+Use:
+
+* descriptive file names
+* accurate alt text
+* compressed images
+* appropriate dimensions
+* modern image formats where supported
+* lazy loading where appropriate
+
+Do not stuff keywords into alt text.
+
+Alt text should describe the actual image.
+
+Prioritize authentic photographs of:
+
+* Idrissi
+* Tangier
+* tours
+* travelers where permission exists
+* Jewish heritage sites
+* Chefchaouen
+* shore excursions
+* real experiences
+
+Do not misrepresent stock images as personal tour photographs.
+
+==================================================
+21. MOBILE & SPEED
+==================
+
+Optimize the website for mobile first.
+
+Check:
+
+* loading speed
+* Core Web Vitals
+* image sizes
+* unnecessary scripts
+* layout shifts
+* buttons
+* navigation
+* forms
+* WhatsApp button
+* readability
+* mobile spacing
+
+Do not sacrifice the quality of genuine photographs simply to achieve an artificial speed score.
+
+==================================================
+22. CONTACT AND CONVERSION
+==========================
+
+Make it extremely easy for an international traveler to contact Idrissi.
+
+Prominently provide genuine contact options such as:
+
+WhatsApp
+Email
+Phone
+Booking form
+
+Use clear CTAs such as:
+
+Request Your Private Tour
+
+Contact Idrissi
+
+Plan Your Tangier Tour
+
+Do not use aggressive popups.
+
+Do not make visitors search for contact information.
+
+==================================================
+23. BUSINESS INFORMATION CONSISTENCY
+====================================
+
+Use consistent:
+
+Business name
+Guide name
+Phone
+Email
+Website
+Location
+Professional description
+
+Check every page and footer for inconsistencies.
+
+Use the verified business information everywhere.
+
+==================================================
+24. SITEMAP AND ROBOTS
+======================
+
+Audit:
+
+XML sitemap
+robots.txt
+canonical tags
+index/noindex
+redirects
+
+Ensure important pages can be crawled and indexed.
+
+Do not accidentally block important pages.
+
+Make sure the sitemap contains only canonical URLs that should be indexed.
+
+==================================================
+25. BROKEN LINKS AND TECHNICAL SEO
+==================================
+
+Check every internal link.
+
+Fix:
+
+* 404 pages
+* broken links
+* incorrect URLs
+* redirect chains
+* redirect loops
+* duplicate URLs
+* missing canonical tags
+* accidental noindex tags
+
+Do not remove a page merely because it has a problem.
+
+Fix it where possible.
+
+==================================================
+26. EXISTING URL PRESERVATION
+=============================
+
+This is extremely important.
+
+Do not change existing URLs unless there is a compelling SEO/technical reason.
+
+If a URL must change:
+
+1. create a 301 redirect
+2. update all internal links
+3. update canonical
+4. update sitemap
+5. check for broken backlinks where possible
+
+Preserve existing SEO value.
+
+==================================================
+27. CONTENT QUALITY
+===================
+
+Improve content where necessary, but do not rewrite every paragraph simply for the sake of changing it.
+
+Keep useful existing content.
+
+Remove repetition.
+
+Make pages more specific and useful.
+
+Avoid generic AI phrases such as:
+
+"unforgettable journey"
+
+"hidden gems"
+
+"rich tapestry"
+
+"breathtaking experience"
+
+when they add no real information.
+
+Prefer concrete details about Tangier, Morocco, history, culture, logistics and the actual tour.
+
+==================================================
+28. DO NOT KEYWORD STUFF
+========================
+
+Never repeat:
+
+"Tangier private tours"
+
+or similar phrases unnaturally.
+
+Use natural variations such as:
+
+* private tours in Tangier
+* private Tangier tour
+* explore Tangier with a local guide
+* licensed guide in Tangier
+* Tangier sightseeing
+* private Morocco experience
+
+Use terms only when they make sense.
+
+==================================================
+29. IMPORTANT: DO NOT INVENT INFORMATION
+========================================
+
+This is one of the most important instructions.
+
+Never invent:
+
+* reviews
+* customers
+* testimonials
+* prices
+* awards
+* certificates
+* affiliations
+* years
+* languages
+* locations
+* services
+* statistics
+* historical facts
+* guarantees
+
+If you need information that is not available, create:
+
+FACTS REQUIRING OWNER CONFIRMATION
+
+and list the specific information needed.
+
+Do not publish the assumption.
+
+==================================================
+30. FINAL AUDIT
+===============
+
+After making all changes, perform a complete final audit.
+
+Check:
+
+* Homepage
+* Every important service page
+* Every tour page
+* About page
+* Jewish heritage pages
+* Contact page
+* Blog
+* Footer
+* Navigation
+* Mobile version
+
+Check:
+
+* SEO titles
+* Meta descriptions
+* H1/H2/H3
+* URLs
+* Canonicals
+* Redirects
+* Sitemap
+* Robots
+* Schema
+* Images
+* Alt text
+* Internal links
+* External links
+* Forms
+* WhatsApp
+* Phone
+* Email
+* Mobile usability
+* Page speed
+* Indexability
+* Broken links
+
+==================================================
+31. DO NOT PROMISE SEO RESULTS
+==============================
+
+Do not claim:
+
+"Number 1 on Google"
+
+"Guaranteed ranking"
+
+"Guaranteed AI recommendations"
+
+"Guaranteed traffic"
+
+The objective is to make the website technically strong, useful, authoritative, trustworthy and easy for search engines and AI systems to understand.
+
+==================================================
+32. FINAL REPORT
+================
+
+When the work is finished, give me a concise report containing:
+
+1. What you changed
+2. What pages you changed
+3. What new pages you created
+4. What URLs you changed, if any
+5. What redirects you created
+6. SEO improvements
+7. AI/LLM visibility improvements
+8. Technical improvements
+9. Structured data implemented
+10. Remaining problems
+11. FACTS REQUIRING OWNER CONFIRMATION
+12. Recommended next steps
+
+IMPORTANT:
+
+Do not make unnecessary changes just to make the website look different.
+
+The goal is not to create a new website.
+
+The goal is to turn the EXISTING TangierTours website into a technically strong, trustworthy, professional and search-friendly website while preserving its existing identity, domain, useful content and SEO value.
+
+WORK CAREFULLY, VERIFY FACTS, PRESERVE GOOD CONTENT, AND DO NOT INVENT INFORMATION.
