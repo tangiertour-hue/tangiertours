@@ -23,7 +23,7 @@ const personSchema = {
   address: { "@type": "PostalAddress", addressLocality: "Tangier", addressCountry: "MA" },
   knowsLanguage: ["en", "fr", "es", "ar"],
   hasCredential: [
-    { "@type": "EducationalOccupationalCredential", credentialCategory: "licence", name: "Moroccan Ministry of Tourism Official Guide Licence" },
+    { "@type": "EducationalOccupationalCredential", credentialCategory: "licence", name: "Moroccan Ministry of Tourism Official Guide Licence — GVCT 2932" },
     { "@type": "EducationalOccupationalCredential", credentialCategory: "role", name: "Former President, Tangier Tour Guides Association" },
   ],
   description: "Licensed Professional Guide recognized by the Moroccan Ministry of Tourism and Former President of the Tangier Tour Guides Association. Over 15 years of experience guiding visitors through Morocco's cities, landscapes and cultural heritage.",
@@ -78,7 +78,7 @@ const specialisations = [
 ];
 
 const credentials = [
-  { title: "Moroccan Ministry of Tourism — Official Guide Licence", detail: "A licensed professional guide recognized by the Moroccan Ministry of Tourism, following formal training, examination and professional conduct standards." },
+  { title: "Moroccan Ministry of Tourism — Official Guide Licence · GVCT 2932", detail: "A licensed professional guide recognized by the Moroccan Ministry of Tourism. Licence number: GVCT 2932." },
   { title: "Former President — Tangier Tour Guides Association", detail: "Served as Former President of the Tangier Tour Guides Association, reflecting extensive experience and professional standing within Morocco's tourism community." },
   { title: "Over 15 Years of Professional Experience", detail: "More than 15 years guiding visitors through Morocco's most captivating cities, landscapes and cultural heritage — with a consistent focus on personal attention and authentic local expertise." },
 ];
@@ -107,7 +107,7 @@ export default function AboutPage() {
               Meet Idrissi —<br />Licensed Professional Guide
             </h1>
             <div className="flex flex-wrap justify-center gap-4 mt-8 text-sm text-gray-300">
-              <span className="flex items-center gap-1.5"><Award className="w-4 h-4 text-[var(--gold)]" /> Licensed by Morocco Ministry of Tourism</span>
+              <span className="flex items-center gap-1.5"><Award className="w-4 h-4 text-[var(--gold)]" /> Licensed by Morocco Ministry of Tourism · GVCT 2932</span>
               <span className="flex items-center gap-1.5"><Star className="w-4 h-4 text-[var(--gold)]" /> Former President, Tangier Tour Guides Association</span>
               <span className="flex items-center gap-1.5"><Globe className="w-4 h-4 text-[var(--gold)]" /> English · French · Spanish · Arabic</span>
               <span className="flex items-center gap-1.5"><MapPin className="w-4 h-4 text-[var(--gold)]" /> Based in Tangier, Morocco</span>
@@ -132,7 +132,8 @@ export default function AboutPage() {
               </div>
               <div className="mt-4 text-center lg:text-left">
                 <div className="font-display text-lg font-bold text-navy">Abdelhamid Idrissi</div>
-                <div className="text-gold text-sm font-semibold">Licensed Tour Guide · Tangier</div>
+                <div className="text-gold text-sm font-semibold">Licensed Tour Guide · Morocco</div>
+                <div className="text-muted-text text-xs mt-1 font-mono tracking-wide">Licence No. GVCT 2932</div>
               </div>
             </div>
             {/* Bio */}
