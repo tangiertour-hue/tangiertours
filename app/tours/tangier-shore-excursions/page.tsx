@@ -28,17 +28,6 @@ const tourSchema = {
     name: "TangierTours",
     url: "https://www.tangiertours.ma",
   },
-  offers: [
-    { "@type": "Offer", name: "3-Hour Express", price: "60", priceCurrency: "USD" },
-    { "@type": "Offer", name: "5-Hour Classic", price: "100", priceCurrency: "USD" },
-    { "@type": "Offer", name: "7-Hour Grand Tour", price: "150", priceCurrency: "USD" },
-  ],
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "5.0",
-    reviewCount: "34",
-    bestRating: "5",
-  },
 };
 
 const faqSchema = {
@@ -80,46 +69,42 @@ const faqSchema = {
   ],
 };
 
+// Excursion durations — no prices
 const excursions = [
   {
-    duration: "3-Hour Express",
-    price: "from $60/group",
+    duration: "Short Excursion",
     icon: "⚓",
+    hours: "Approx. 3 hours",
     highlights: [
       "Grand Socco (Great Market Square)",
       "Tangier Medina souks & spice market",
       "Kasbah walls & panoramic viewpoint",
       "Traditional mint tea ceremony",
-      "Return to port — on time, guaranteed",
+      "Return to port",
     ],
-    color: "border-gold",
   },
   {
-    duration: "5-Hour Classic",
-    price: "from $100/group",
+    duration: "Classic Excursion",
     icon: "🌊",
+    hours: "Approx. 5 hours",
     highlights: [
-      "Everything in the Express tour",
+      "Everything in the Short excursion",
       "Café Hafa — legendary ocean-terrace café",
       "Local artisan workshops & crafts",
       "Relaxed, unhurried pace throughout",
-      "Time for independent exploration",
     ],
-    color: "border-gold",
-    featured: true,
   },
   {
-    duration: "7-Hour Grand Tour",
-    price: "from $150/group",
+    duration: "Full-Day Excursion",
     icon: "🏔️",
+    hours: "Approx. 7 hours",
     highlights: [
-      "Everything in the Classic tour",
+      "Everything in the Classic excursion",
       "Cape Spartel lighthouse (Africa's northwest tip)",
       "Caves of Hercules (ancient sea caves)",
       "Spartel Bay — Atlantic coastline views",
-      "Leisurely lunch at a local restaurant",
+      "Local lunch",
     ],
-    color: "border-gold",
   },
 ];
 
@@ -260,48 +245,49 @@ export default function ShoreExcursionsPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="font-display text-3xl sm:text-4xl font-bold text-navy gold-divider mb-2">
-                Choose Your Excursion
+                Excursion Options
               </h2>
               <p className="text-muted-text mt-6 max-w-2xl mx-auto">
-                All excursions are fully private. Prices are per group — not per person. Book the one that fits your port schedule.
+                All excursions are fully private. The duration and itinerary are adapted to your ship&apos;s schedule, your interests and your group.
               </p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
               {excursions.map((ex, i) => (
-                <div
-                  key={i}
-                  className={`relative bg-white rounded border-2 ${ex.featured ? "border-gold shadow-xl" : "border-border-warm"} overflow-hidden flex flex-col`}
-                >
-                  {ex.featured && (
-                    <div className="bg-gold text-navy text-xs font-bold text-center py-1.5 tracking-widest uppercase">
-                      Most Popular
-                    </div>
-                  )}
+                <div key={i} className="bg-ivory border border-border-warm rounded overflow-hidden flex flex-col">
+                  <div className="h-1 bg-gold" />
                   <div className="p-6 flex flex-col flex-1">
                     <div className="text-3xl mb-3">{ex.icon}</div>
                     <h3 className="font-display text-xl font-bold text-navy mb-1">{ex.duration}</h3>
-                    <p className="text-gold font-semibold text-lg mb-4">{ex.price}</p>
+                    <p className="text-xs text-gold font-semibold mb-4">{ex.hours}</p>
                     <ul className="space-y-2.5 flex-1">
                       {ex.highlights.map((h, j) => (
                         <li key={j} className="flex items-start gap-2 text-sm text-charcoal">
-                          <CheckCircle className="w-4 h-4 text-gold shrink-0 mt-0.5" />
-                          {h}
+                          <CheckCircle className="w-4 h-4 text-gold shrink-0 mt-0.5" />{h}
                         </li>
                       ))}
                     </ul>
-                    <a
-                      href="#book"
-                      className={`mt-6 block text-center font-semibold py-2.5 rounded transition-colors ${
-                        ex.featured
-                          ? "bg-gold text-navy hover:opacity-90"
-                          : "border border-gold text-gold hover:bg-gold hover:text-navy"
-                      }`}
-                    >
-                      Book This Tour <ArrowRight className="inline w-4 h-4 ml-1" />
-                    </a>
                   </div>
                 </div>
               ))}
+            </div>
+            {/* Personalized Pricing */}
+            <div className="bg-navy rounded-lg p-8 text-center max-w-3xl mx-auto">
+              <h3 className="font-display text-2xl font-bold text-white mb-3">Personalized Pricing</h3>
+              <p className="text-white/75 leading-relaxed mb-2">
+                Every journey is different. Our shore excursions are individually priced according to your schedule, group size, itinerary and preferences.
+              </p>
+              <p className="text-gold font-semibold mb-6">Contact us for a personalized quotation.</p>
+              <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                <a href="https://wa.me/212668702424?text=Hi%20Abdelhamid%2C%20I%20would%20like%20a%20quote%20for%20a%20Tangier%20shore%20excursion."
+                  target="_blank" rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white font-bold px-6 py-3 rounded hover:bg-[#20BA5A] transition">
+                  <ArrowRight className="w-4 h-4" /> WhatsApp for a Quote
+                </a>
+                <a href="#book"
+                  className="inline-flex items-center justify-center gap-2 bg-gold text-navy font-bold px-6 py-3 rounded hover:opacity-90 transition">
+                  Request Your Excursion
+                </a>
+              </div>
             </div>
           </div>
         </section>
