@@ -134,34 +134,30 @@ export default function JewishHeritageHubPage() {
         {/* Authoritative Intro with photos */}
         <section className="max-w-6xl mx-auto px-4 py-16 space-y-14">
 
-          {/* Paragraph 1 + Synagogue photo */}
+          {/* Paragraph 1 + 2 photos */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <p className="text-gray-700 leading-relaxed text-lg">
               Morocco is home to one of the oldest continuous Jewish communities on earth. Long before the Arab conquests, before the Byzantine empire reshaped North Africa, Jewish traders and artisans were already established in the cities that would become Tangier, Fez, and Volubilis. Scholars trace the first Jewish settlers in Morocco to the era of the First Temple, more than 2,500 years ago — families who arrived with Phoenician traders or fled the destruction of Jerusalem. Their descendants built communities that would survive Roman rule, the Vandal invasions, the Arabisation of North Africa, and the expulsion of 1492, when hundreds of thousands of Sephardic Jews chose Morocco as their new home rather than convert to Christianity under the Spanish Inquisition.
             </p>
-            <div className="relative h-72 lg:h-80 rounded-lg overflow-hidden shadow-md border border-border-warm">
-              <Image
-                src="/jewish-heritage-synagogue.jpg"
-                alt="Inside a Moroccan synagogue — Torah scroll and menorah, Jewish heritage tour in Morocco"
-                fill
-                className="object-cover object-center"
-                sizes="(max-width:1024px) 100vw, 50vw"
-              />
+            <div className="grid grid-cols-2 gap-3">
+              <div className="relative h-56 lg:h-64 rounded-lg overflow-hidden shadow-md border border-border-warm">
+                <Image src="/jewish-heritage-synagogue.jpg" alt="Inside a Moroccan synagogue — Torah scroll and menorah, Jewish heritage tour in Morocco" fill className="object-cover object-center" sizes="25vw" />
+              </div>
+              <div className="relative h-56 lg:h-64 rounded-lg overflow-hidden shadow-md border border-border-warm">
+                <Image src="/jewish-star-david-book.jpg" alt="Gold Star of David on Hebrew prayer book — Jewish heritage Morocco" fill className="object-cover object-center" sizes="25vw" />
+              </div>
             </div>
           </div>
 
-          {/* Paragraph 2 + Dar Rabbi Haïm Pinto photo */}
+          {/* Paragraph 2 + 2 photos */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-            <div className="relative h-72 lg:h-80 rounded-lg overflow-hidden shadow-md border border-border-warm order-2 lg:order-1">
-              <Image
-                src="/jewish-heritage-rabbi-pinto.webp"
-                alt="Tour guests at Dar Rabbi Haïm Pinto 1895 in the Mellah, Jewish heritage tour Morocco"
-                fill
-                className="object-cover object-center"
-                sizes="(max-width:1024px) 100vw, 50vw"
-              />
-              <div className="absolute bottom-0 left-0 right-0 bg-navy/70 px-3 py-2 text-xs text-white/80 text-center">
-                Dar Rabbi Haïm Pinto · Tangier Mellah · 1895
+            <div className="grid grid-cols-2 gap-3 order-2 lg:order-1">
+              <div className="relative h-56 lg:h-64 rounded-lg overflow-hidden shadow-md border border-border-warm">
+                <Image src="/jewish-heritage-rabbi-pinto.webp" alt="Tour guests at Dar Rabbi Haïm Pinto 1895 in the Tangier Mellah" fill className="object-cover object-center" sizes="25vw" />
+                <div className="absolute bottom-0 left-0 right-0 bg-navy/70 px-2 py-1.5 text-xs text-white/80 text-center leading-tight">Dar Rabbi Haïm Pinto · 1895</div>
+              </div>
+              <div className="relative h-56 lg:h-64 rounded-lg overflow-hidden shadow-md border border-border-warm">
+                <Image src="/jewish-torah-cover.jpg" alt="Ornate silver and gold Torah cover with Star of David — Moroccan Jewish heritage" fill className="object-cover object-top" sizes="25vw" />
               </div>
             </div>
             <p className="text-gray-700 leading-relaxed text-lg order-1 lg:order-2">
@@ -169,19 +165,18 @@ export default function JewishHeritageHubPage() {
             </p>
           </div>
 
-          {/* Paragraph 3 + Torah ark photo */}
+          {/* Paragraph 3 + 2 photos */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <p className="text-gray-700 leading-relaxed text-lg">
               Today, Morocco draws Jewish diaspora visitors from three main communities: Israeli families whose grandparents or great-grandparents emigrated after 1948 or 1967; French Jews of Moroccan origin — the largest single diaspora group — who grew up hearing stories of Casablanca, Tangier, and Marrakech; and American Jewish travellers motivated by curiosity, genealogical research, or a desire to understand a chapter of Jewish history rarely taught in Western schools. What unites them is the discovery that Morocco is not a country where Jews merely survived — it is a country where Jews <em>thrived</em>, left an indelible mark, and are remembered with genuine pride by the Muslim majority. Our tours are designed to honour that complexity with the depth it deserves.
             </p>
-            <div className="relative h-72 lg:h-80 rounded-lg overflow-hidden shadow-md border border-border-warm">
-              <Image
-                src="/jewish-heritage-torah-ark.webp"
-                alt="Tour guests in front of the Torah ark inside a Moroccan synagogue during a Jewish heritage tour"
-                fill
-                className="object-cover object-center"
-                sizes="(max-width:1024px) 100vw, 50vw"
-              />
+            <div className="grid grid-cols-2 gap-3">
+              <div className="relative h-56 lg:h-64 rounded-lg overflow-hidden shadow-md border border-border-warm">
+                <Image src="/jewish-heritage-torah-ark.webp" alt="Tour guests in front of the Torah ark inside a Moroccan synagogue" fill className="object-cover object-center" sizes="25vw" />
+              </div>
+              <div className="relative h-56 lg:h-64 rounded-lg overflow-hidden shadow-md border border-border-warm">
+                <Image src="/jewish-israel-morocco-flags.jpg" alt="Israeli and Moroccan flags side by side — Morocco Israel friendship and Jewish heritage tourism" fill className="object-cover object-center" sizes="25vw" />
+              </div>
             </div>
           </div>
 
