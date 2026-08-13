@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Breadcrumb from "@/components/Breadcrumb";
@@ -130,14 +131,38 @@ export default function PrivateMoroccoTransfersPage() {
           <h2 className="font-display text-3xl text-navy text-center mb-2 gold-divider">
             Why Choose a Private Transfer Over Public Transport?
           </h2>
-          <div className="mt-10 grid md:grid-cols-2 gap-8 text-gray-700 leading-relaxed">
-            <p>
-              Morocco&apos;s intercity buses are inexpensive, but they run on fixed schedules, stop at inconvenient terminals far from city centres, and can be delayed by hours. Shared grands taxis are faster but uncomfortable and offer zero privacy. For travellers arriving with luggage, young children, or simply a limited time window, these options create unnecessary stress.
-            </p>
-            <p>
-              A private transfer with TangierTours means your driver is waiting for you when you land — flight tracked, name board in hand. You proceed directly to your destination without queuing, negotiating, or worrying about luggage. Whether it&apos;s a short airport run or a cross-country journey to Fez, we handle every detail so you don&apos;t have to.
-            </p>
+
+          {/* Paragraph 1 */}
+          <p className="mt-10 text-gray-700 leading-relaxed text-lg max-w-3xl mx-auto text-center">
+            Morocco&apos;s intercity buses are inexpensive, but they run on fixed schedules, stop at inconvenient terminals far from city centres, and can be delayed by hours. Shared grands taxis are faster but uncomfortable and offer zero privacy. For travellers arriving with luggage, young children, or simply a limited time window, these options create unnecessary stress.
+          </p>
+
+          {/* 2 photos side by side */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mt-10">
+            <div className="relative h-64 sm:h-72 rounded-lg overflow-hidden shadow-md border border-border-warm">
+              <Image
+                src="/transfer-vehicle-exterior.webp"
+                alt="Private Mercedes-Benz transfer vehicle — exterior, Morocco private transfers TangierTours"
+                fill
+                className="object-cover object-center"
+                sizes="(max-width:640px) 100vw, 50vw"
+              />
+            </div>
+            <div className="relative h-64 sm:h-72 rounded-lg overflow-hidden shadow-md border border-border-warm">
+              <Image
+                src="/transfer-vehicle-interior.webp"
+                alt="Comfortable leather interior of private transfer Mercedes-Benz Vito Morocco"
+                fill
+                className="object-cover object-center"
+                sizes="(max-width:640px) 100vw, 50vw"
+              />
+            </div>
           </div>
+
+          {/* Paragraph 2 */}
+          <p className="mt-10 text-gray-700 leading-relaxed text-lg max-w-3xl mx-auto text-center">
+            A private transfer with TangierTours means your driver is waiting for you when you land — flight tracked, name board in hand. You proceed directly to your destination without queuing, negotiating, or worrying about luggage. Whether it&apos;s a short airport run or a cross-country journey to Fez, we handle every detail so you don&apos;t have to.
+          </p>
         </section>
 
         {/* Routes Pricing Table */}
