@@ -230,8 +230,31 @@ export default function ShoreExcursionsPage() {
                 <h2 className="font-display text-3xl font-bold text-navy mb-4 gold-divider-left">
                   Private Tours, Transfers &amp; Shore Excursions in Morocco
                 </h2>
-                <div className="space-y-4 text-muted-text leading-relaxed mt-6">
+                <div className="space-y-5 text-muted-text leading-relaxed mt-6">
                   <p>TangierTours has been operating in the private tours and transfers business since 1998, providing professional, reliable and personalised services with experienced, skilled and multilingual driver-guides.</p>
+
+                  {/* Two photos between paragraphs */}
+                  <div className="grid grid-cols-2 gap-3">
+                    <div className="relative h-44 rounded-lg overflow-hidden border border-border-warm shadow-sm">
+                      <Image
+                        src="/shore-cruise-port.jpg"
+                        alt="Cruise passengers disembarking at port — shore excursion Morocco TangierTours"
+                        fill
+                        className="object-cover object-center"
+                        sizes="(max-width:1024px) 50vw, 25vw"
+                      />
+                    </div>
+                    <div className="relative h-44 rounded-lg overflow-hidden border border-border-warm shadow-sm">
+                      <Image
+                        src="/shore-tangier-port.jpg"
+                        alt="Cruise ship docked at Tangier port with mosque and blue Mediterranean sea"
+                        fill
+                        className="object-cover object-center"
+                        sizes="(max-width:1024px) 50vw, 25vw"
+                      />
+                    </div>
+                  </div>
+
                   <p>Enjoy the convenience of having one trusted provider for all your travel needs — private tours, airport and hotel transfers, and shore excursions. We operate in <strong className="text-navy">Tangier, Casablanca, Ceuta</strong> and <strong className="text-navy">Agadir</strong>, providing personalised experiences for individuals, couples, families and private groups.</p>
                   <p>Instead of sending multiple emails to different providers, let us take care of everything with professional service and personalised attention.</p>
                 </div>
