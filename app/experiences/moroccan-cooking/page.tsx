@@ -125,10 +125,45 @@ function IntroSection() {
   return (
     <section className="max-w-4xl mx-auto px-4 sm:px-6 py-14">
       <h2 className="font-display text-3xl font-bold text-navy mb-4 gold-divider-left">More Than a Cooking Class</h2>
-      <div className="space-y-4 text-muted-text leading-relaxed mt-6">
-        <p>Moroccan cuisine is inseparable from Moroccan life. It is built around shared meals, slow cooking, careful spicing, and the art of hospitality — the idea that a guest is always to be welcomed, nourished, and made to feel at home. To understand the food is to understand something essential about the culture.</p>
-        <p>This experience offers international visitors a genuine encounter with that tradition. You work alongside a local host in a real kitchen setting, learning through doing — chopping, mixing, seasoning, and cooking at a relaxed pace while conversation flows naturally. The market visit, where available, brings the ingredients to life before you cook them. And the meal at the end is eaten together, at the same table, in the Moroccan way.</p>
-        <p>Available in both Tangier and Casablanca, the experience can be arranged privately for individuals, couples, families or small groups — and adapted to your interests, dietary requirements and available time.</p>
+      <div className="space-y-8 mt-6">
+
+        {/* Paragraph 1 */}
+        <p className="text-muted-text leading-relaxed text-lg">
+          Moroccan cuisine is inseparable from Moroccan life. It is built around shared meals, slow cooking, careful spicing, and the art of hospitality — the idea that a guest is always to be welcomed, nourished, and made to feel at home. To understand the food is to understand something essential about the culture.
+        </p>
+
+        {/* 2 food photos side by side */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+          <div className="relative h-64 sm:h-72 rounded-lg overflow-hidden shadow-md border border-border-warm">
+            <Image
+              src="/cooking-couscous.jpg"
+              alt="Traditional Moroccan couscous with vegetables and chickpeas — Moroccan cooking experience"
+              fill
+              className="object-cover object-center"
+              sizes="(max-width:640px) 100vw, 50vw"
+            />
+          </div>
+          <div className="relative h-64 sm:h-72 rounded-lg overflow-hidden shadow-md border border-border-warm">
+            <Image
+              src="/cooking-brochettes.jpg"
+              alt="Moroccan chicken brochettes with peppers — traditional Moroccan cooking class"
+              fill
+              className="object-cover object-center"
+              sizes="(max-width:640px) 100vw, 50vw"
+            />
+          </div>
+        </div>
+
+        {/* Paragraph 2 */}
+        <p className="text-muted-text leading-relaxed text-lg">
+          This experience offers international visitors a genuine encounter with that tradition. You work alongside a local host in a real kitchen setting, learning through doing — chopping, mixing, seasoning, and cooking at a relaxed pace while conversation flows naturally. The market visit, where available, brings the ingredients to life before you cook them. And the meal at the end is eaten together, at the same table, in the Moroccan way.
+        </p>
+
+        {/* Paragraph 3 */}
+        <p className="text-muted-text leading-relaxed text-lg">
+          Available in both Tangier and Casablanca, the experience can be arranged privately for individuals, couples, families or small groups — and adapted to your interests, dietary requirements and available time.
+        </p>
+
       </div>
     </section>
   );
