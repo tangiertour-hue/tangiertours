@@ -279,6 +279,16 @@ export default function ShoreExcursionsPage() {
                     <span className="text-sm text-charcoal">{item}</span>
                   </div>
                 ))}
+                {/* Tour group photo below the list */}
+                <div className="relative h-56 rounded-lg overflow-hidden border border-border-warm shadow-sm mt-2">
+                  <Image
+                    src="/shore-tour-group-market.jpg"
+                    alt="Happy tour group with local vendors at Tangier market during a private shore excursion"
+                    fill
+                    className="object-cover object-center"
+                    sizes="(max-width:1024px) 100vw, 50vw"
+                  />
+                </div>
               </div>
             </div>
           </div>
