@@ -78,29 +78,7 @@ const faqJsonLd = {
   ],
 };
 
-const tourOptions = [
-  {
-    icon: Clock,
-    title: "Half-Day Tour",
-    duration: "4 hours",
-    price: "From $80 / group",
-    highlights: ["Medina walk & souks", "Grand Socco market square", "Kasbah viewpoint", "Traditional mint tea"],
-  },
-  {
-    icon: Star,
-    title: "Full-Day Tour",
-    duration: "8 hours",
-    price: "From $150 / group",
-    highlights: ["All half-day highlights", "Cape Spartel lighthouse", "Caves of Hercules", "Local restaurant lunch", "Café Hafa ocean terrace"],
-  },
-  {
-    icon: Users,
-    title: "Custom Tour",
-    duration: "Any duration",
-    price: "Quote on request",
-    highlights: ["Fully bespoke itinerary", "Any combination of sites", "Flexible start time", "Special interest focus"],
-  },
-];
+
 
 const sights = [
   { icon: MapPin, name: "Tangier Medina", desc: "Labyrinthine streets dating back centuries, filled with artisans, spice stalls, and authentic neighbourhood life far from tourist artifice." },
@@ -174,37 +152,7 @@ export default function TangierPrivateToursPage() {
         </section>
 
 
-        {/* Tour Options */}
-        <section id="options" className="max-w-6xl mx-auto px-4 py-16">
-          <h2 className="font-display text-3xl text-navy text-center mb-2 gold-divider">Choose Your Tour</h2>
-          <p className="text-center text-gray-500 mt-6 mb-12">All prices are per group, not per person.</p>
-          <div className="grid md:grid-cols-3 gap-6">
-            {tourOptions.map((opt) => {
-              const Icon = opt.icon;
-              return (
-                <div key={opt.title} className="bg-white rounded-lg border border-[var(--border-warm)] p-7 flex flex-col hover:shadow-lg transition-shadow">
-                  <div className="w-12 h-12 rounded-full bg-navy flex items-center justify-center mb-4">
-                    <Icon className="w-5 h-5 text-[var(--gold)]" />
-                  </div>
-                  <h3 className="font-display text-xl text-navy mb-1">{opt.title}</h3>
-                  <p className="text-sm text-gray-500 mb-1">{opt.duration}</p>
-                  <p className="text-[var(--gold)] font-bold text-lg mb-4">{opt.price}</p>
-                  <ul className="space-y-2 flex-1">
-                    {opt.highlights.map((h) => (
-                      <li key={h} className="flex gap-2 items-start text-sm text-gray-600">
-                        <CheckCircle className="w-4 h-4 text-[var(--gold)] flex-shrink-0 mt-0.5" />
-                        {h}
-                      </li>
-                    ))}
-                  </ul>
-                  <Link href="#booking" className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[var(--gold)] hover:text-navy transition-colors">
-                    Book Now <ArrowRight className="w-4 h-4" />
-                  </Link>
-                </div>
-              );
-            })}
-          </div>
-        </section>
+
 
         {/* What You'll See */}
         <section className="bg-navy py-16 px-4">
